@@ -32,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="498"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RecLogo_JoliCutNOB" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
-                                        <rect key="frame" x="-58" y="134" width="422" height="172"/>
+                                        <rect key="frame" x="-59" y="348" width="422" height="172"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
