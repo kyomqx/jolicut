@@ -13,7 +13,7 @@
 		067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067CFA9F1CBE71AD0021618F /* Assets.xcassets */; };
 		067CFAAE1CBE71AD0021618F /* JolicutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAAD1CBE71AD0021618F /* JolicutTests.swift */; };
 		067CFAB91CBE71AD0021618F /* JolicutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAB81CBE71AD0021618F /* JolicutUITests.swift */; };
-		067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch Screen.storyboard */; };
+		067CFADD1CBF85130021618F /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch.storyboard */; };
 		067CFAE31CBF89590021618F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADF1CBF89590021618F /* 1.jpg */; };
 		067CFAE41CBF89590021618F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE01CBF89590021618F /* 2.jpg */; };
 		067CFAE51CBF89590021618F /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */; };
@@ -22,9 +22,6 @@
 		067CFAEB1CBF90F80021618F /* security-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE81CBF90F80021618F /* security-512.png */; };
 		067CFAEC1CBF90F80021618F /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE91CBF90F80021618F /* User_Icon.png */; };
 		F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F27C58021CBF8BE900852C8F /* iCarousel.m */; };
-		F27C58071CBF911400852C8F /* Logo_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = F27C58041CBF911400852C8F /* Logo_JoliCut.png */; };
-		F27C58081CBF911400852C8F /* security-512.png in Resources */ = {isa = PBXBuildFile; fileRef = F27C58051CBF911400852C8F /* security-512.png */; };
-		F27C58091CBF911400852C8F /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F27C58061CBF911400852C8F /* User_Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +55,7 @@
 		067CFAB81CBE71AD0021618F /* JolicutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JolicutUITests.swift; sourceTree = "<group>"; };
 		067CFABA1CBE71AD0021618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jolicut-Bridging-Header.h"; sourceTree = "<group>"; };
-		067CFADC1CBF85130021618F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		067CFADC1CBF85130021618F /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		067CFADF1CBF89590021618F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		067CFAE01CBF89590021618F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
@@ -125,7 +122,7 @@
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
 				067CFA9C1CBE71AD0021618F /* Main.storyboard */,
-				067CFADC1CBF85130021618F /* Launch Screen.storyboard */,
+				067CFADC1CBF85130021618F /* Launch.storyboard */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
 				F27C58021CBF8BE900852C8F /* iCarousel.m */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
@@ -278,7 +275,7 @@
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
 				067CFAE61CBF89590021618F /* LogoInvert_JoliCut.png in Resources */,
 				067CFAEC1CBF90F80021618F /* User_Icon.png in Resources */,
-				067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */,
+				067CFADD1CBF85130021618F /* Launch.storyboard in Resources */,
 				067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */,
 				067CFAEA1CBF90F80021618F /* Logo_JoliCut.png in Resources */,
 				067CFAEB1CBF90F80021618F /* security-512.png in Resources */,
