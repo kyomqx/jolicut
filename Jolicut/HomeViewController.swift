@@ -44,7 +44,7 @@ class HomeViewController: UIViewController, iCarouselDataSource, iCarouselDelega
         var imageView : UIImageView!
         
         if view == nil {
-            imageView = UIImageView(frame: CGRectMake(0, 0, 375, 585))
+            imageView = UIImageView(frame: CGRectMake(0, 0, 375, 586))
             imageView.contentMode = .ScaleToFill
         } else {
             imageView = view as! UIImageView
