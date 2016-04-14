@@ -14,10 +14,21 @@ class HomeViewController: UIViewController, iCarouselDataSource, iCarouselDelega
     
     @IBOutlet weak var DisplayView: iCarousel!
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         DisplayView.type = iCarouselType.Linear
-        DisplayView.scrollToItemAtIndex(1, duration: 2)
+        _ = NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: #selector(HomeViewController.EnabledAutoscroll), userInfo: nil, repeats: true)
+        _ = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(HomeViewController.DisabledAutoscroll), userInfo: nil, repeats: true)
+    }
+    
+    func EnabledAutoscroll() {
+        DisplayView.autoscroll = -1
+    }
+    
+    func DisabledAutoscroll() {
+        DisplayView.autoscroll = 0
     }
     
     func numberOfItemsInCarousel(carousel: iCarousel) -> Int {
