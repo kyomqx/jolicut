@@ -26,6 +26,7 @@
 		1CD48C781CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */; };
 		1CD48C791CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */; };
 		1CD48C7B1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */; };
+		1CD48C7F1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */; };
 		6940CDF41CBFECB3001954A8 /* cadenas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6940CDF31CBFECB3001954A8 /* cadenas.png */; };
 		699545AB1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AC1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -84,6 +85,7 @@
 		1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black.png"; sourceTree = "<group>"; };
+		1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecLogo_JoliCutNOB.png; sourceTree = "<group>"; };
 		6940CDF31CBFECB3001954A8 /* cadenas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadenas.png; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		067CFADE1CBF89440021618F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */,
 				1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */,
 				1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */,
 				6940CDF31CBFECB3001954A8 /* cadenas.png */,
@@ -313,6 +316,7 @@
 				1CD48C731CBFDA6400EDFB6A /* (null) in Resources */,
 				067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */,
 				699545AD1CBFC6860079C3E5 /* (null) in Resources */,
+				1CD48C7F1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png in Resources */,
 				699545B01CBFC6860079C3E5 /* (null) in Resources */,
 				699545B81CBFCF390079C3E5 /* (null) in Resources */,
 				1CD48C771CBFE8BF00EDFB6A /* Logo_JoliCut.png in Resources */,

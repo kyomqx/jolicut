@@ -42,7 +42,7 @@
                                     <segue destination="PEW-kt-VGX" kind="push" id="Bpq-ic-MX7"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCut NOB_Black" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCutNOB.png" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
                                 <rect key="frame" x="-50" y="20" width="421" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="Je0-Tw-wp3"/>
@@ -329,15 +329,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjZ-no-fob">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjZ-no-fob">
                                 <rect key="frame" x="85" y="382" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A9f-Nk-yV6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Mot de passe oublié ?"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RecLogo_JoliCut NOB_Black.png" translatesAutoresizingMaskIntoConstraints="NO" id="ep4-fL-Etf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCut NOB_Black.png" translatesAutoresizingMaskIntoConstraints="NO" id="ep4-fL-Etf">
                                 <rect key="frame" x="10" y="113" width="320" height="90"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx">
                                 <rect key="frame" x="51" y="275" width="249" height="30"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" keyboardKey="YES" notEnabled="YES"/>
@@ -345,13 +348,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="security-512.png" translatesAutoresizingMaskIntoConstraints="NO" id="RhG-kB-O8z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cadenas" translatesAutoresizingMaskIntoConstraints="NO" id="RhG-kB-O8z">
                                 <rect key="frame" x="21" y="278" width="27" height="24"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="User_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="BMN-NS-cJV" userLabel="User_Icon.png">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="BMN-NS-cJV" userLabel="User_Icon.png">
                                 <rect key="frame" x="23" y="245" width="22" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="TDO-Sx-bPU"/>
+                                </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom d'utilisateur" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEX-2G-xdf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom d'utilisateur" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEX-2G-xdf">
                                 <rect key="frame" x="51" y="242" width="249" height="30"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" keyboardKey="YES" notEnabled="YES"/>
@@ -359,13 +365,39 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egi-rS-1BV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egi-rS-1BV">
                                 <rect key="frame" x="85" y="334" width="150" height="40"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Connexion"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.85882352939999995" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Egi-rS-1BV" firstAttribute="centerX" secondItem="Kvs-l4-P1O" secondAttribute="centerX" id="1kK-Lr-Pgq"/>
+                            <constraint firstItem="mq5-bR-icx" firstAttribute="leading" secondItem="RhG-kB-O8z" secondAttribute="trailing" constant="3" id="3ow-fo-Z51"/>
+                            <constraint firstItem="KEX-2G-xdf" firstAttribute="leading" secondItem="BMN-NS-cJV" secondAttribute="trailing" constant="6" id="9U2-O0-kSU"/>
+                            <constraint firstItem="RhG-kB-O8z" firstAttribute="top" secondItem="BMN-NS-cJV" secondAttribute="bottom" constant="9" id="CMN-HX-igk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KEX-2G-xdf" secondAttribute="trailing" constant="4" id="Dwi-lf-yE4"/>
+                            <constraint firstItem="KEX-2G-xdf" firstAttribute="leading" secondItem="mq5-bR-icx" secondAttribute="leading" id="EB4-ds-qeb"/>
+                            <constraint firstItem="boX-Pz-eC6" firstAttribute="top" secondItem="RhG-kB-O8z" secondAttribute="bottom" constant="222" id="GOp-cr-L3f"/>
+                            <constraint firstItem="Egi-rS-1BV" firstAttribute="trailing" secondItem="yjZ-no-fob" secondAttribute="trailing" id="IQx-u7-KmO"/>
+                            <constraint firstItem="RhG-kB-O8z" firstAttribute="centerY" secondItem="mq5-bR-icx" secondAttribute="centerY" id="NHm-Ya-05V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ep4-fL-Etf" secondAttribute="trailing" constant="-26" id="O3I-m9-eaT"/>
+                            <constraint firstItem="Egi-rS-1BV" firstAttribute="leading" secondItem="yjZ-no-fob" secondAttribute="leading" id="Pq5-Dg-iQ4"/>
+                            <constraint firstItem="KEX-2G-xdf" firstAttribute="trailing" secondItem="mq5-bR-icx" secondAttribute="trailing" id="VRF-ep-RQa"/>
+                            <constraint firstItem="RhG-kB-O8z" firstAttribute="leading" secondItem="Kvs-l4-P1O" secondAttribute="leadingMargin" constant="5" id="WYl-OD-IcT"/>
+                            <constraint firstItem="boX-Pz-eC6" firstAttribute="top" secondItem="yjZ-no-fob" secondAttribute="bottom" constant="112" id="Wds-cJ-U6V"/>
+                            <constraint firstItem="ep4-fL-Etf" firstAttribute="top" secondItem="u41-ze-tbv" secondAttribute="bottom" constant="49" id="Xwz-Hy-dcT"/>
+                            <constraint firstItem="BMN-NS-cJV" firstAttribute="centerY" secondItem="KEX-2G-xdf" secondAttribute="centerY" id="bMt-YH-djH"/>
+                            <constraint firstItem="ep4-fL-Etf" firstAttribute="leading" secondItem="Kvs-l4-P1O" secondAttribute="leadingMargin" constant="-6" id="erQ-kn-EcL"/>
+                            <constraint firstItem="KEX-2G-xdf" firstAttribute="top" secondItem="ep4-fL-Etf" secondAttribute="bottom" constant="39" id="ge9-IA-S3R"/>
+                            <constraint firstItem="Egi-rS-1BV" firstAttribute="top" secondItem="mq5-bR-icx" secondAttribute="bottom" constant="29" id="m0S-qW-OLM"/>
+                            <constraint firstItem="Egi-rS-1BV" firstAttribute="leading" secondItem="Kvs-l4-P1O" secondAttribute="leadingMargin" constant="69" id="oOA-Cd-oTd"/>
+                            <constraint firstItem="BMN-NS-cJV" firstAttribute="top" secondItem="ep4-fL-Etf" secondAttribute="bottom" constant="42" id="oo8-5w-rDy"/>
+                            <constraint firstItem="mq5-bR-icx" firstAttribute="top" secondItem="KEX-2G-xdf" secondAttribute="bottom" constant="3" id="qne-JX-beM"/>
+                            <constraint firstItem="BMN-NS-cJV" firstAttribute="centerX" secondItem="RhG-kB-O8z" secondAttribute="centerX" id="vuR-xq-GTm"/>
+                            <constraint firstItem="yjZ-no-fob" firstAttribute="top" secondItem="Egi-rS-1BV" secondAttribute="bottom" constant="8" symbolic="YES" id="xXK-PB-16d"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Se Connecter" id="VKo-kL-Ydr"/>
@@ -696,9 +728,9 @@
     </scenes>
     <resources>
         <image name="LogoIcon_JoliCut" width="1795" height="1796"/>
-        <image name="RecLogo_JoliCut NOB_Black" width="1419" height="334"/>
         <image name="RecLogo_JoliCut NOB_Black.png" width="1419" height="334"/>
+        <image name="RecLogo_JoliCutNOB.png" width="1500" height="500"/>
         <image name="User_Icon.png" width="512" height="512"/>
-        <image name="security-512.png" width="512" height="512"/>
+        <image name="cadenas" width="512" height="512"/>
     </resources>
 </document>
