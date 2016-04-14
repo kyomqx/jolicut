@@ -13,12 +13,15 @@
 		067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067CFA9F1CBE71AD0021618F /* Assets.xcassets */; };
 		067CFAAE1CBE71AD0021618F /* JolicutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAAD1CBE71AD0021618F /* JolicutTests.swift */; };
 		067CFAB91CBE71AD0021618F /* JolicutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAB81CBE71AD0021618F /* JolicutUITests.swift */; };
-		067CFAD51CBE8F680021618F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAD41CBE8F680021618F /* iCarousel.m */; };
 		067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch Screen.storyboard */; };
 		067CFAE31CBF89590021618F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADF1CBF89590021618F /* 1.jpg */; };
 		067CFAE41CBF89590021618F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE01CBF89590021618F /* 2.jpg */; };
 		067CFAE51CBF89590021618F /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */; };
 		067CFAE61CBF89590021618F /* LogoInvert_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE21CBF89590021618F /* LogoInvert_JoliCut.png */; };
+		1CD48C6C1CBF8B6100EDFB6A /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C691CBF8B6100EDFB6A /* User_Icon.png */; };
+		1CD48C6D1CBF8B6100EDFB6A /* Logo_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C6A1CBF8B6100EDFB6A /* Logo_JoliCut.png */; };
+		1CD48C6E1CBF8B6100EDFB6A /* security-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C6B1CBF8B6100EDFB6A /* security-512.png */; };
+		1CD48C711CBF8C4A00EDFB6A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD48C701CBF8C4A00EDFB6A /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +55,16 @@
 		067CFAB81CBE71AD0021618F /* JolicutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JolicutUITests.swift; sourceTree = "<group>"; };
 		067CFABA1CBE71AD0021618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jolicut-Bridging-Header.h"; sourceTree = "<group>"; };
-		067CFAD31CBE8F680021618F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = "../../iCarousel-master/iCarousel/iCarousel.h"; sourceTree = "<group>"; };
-		067CFAD41CBE8F680021618F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = "../../iCarousel-master/iCarousel/iCarousel.m"; sourceTree = "<group>"; };
 		067CFADC1CBF85130021618F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		067CFADF1CBF89590021618F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		067CFAE01CBF89590021618F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
 		067CFAE21CBF89590021618F /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
+		1CD48C691CBF8B6100EDFB6A /* User_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User_Icon.png; sourceTree = "<group>"; };
+		1CD48C6A1CBF8B6100EDFB6A /* Logo_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_JoliCut.png; sourceTree = "<group>"; };
+		1CD48C6B1CBF8B6100EDFB6A /* security-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "security-512.png"; sourceTree = "<group>"; };
+		1CD48C6F1CBF8C4A00EDFB6A /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = ../iCarousel.h; sourceTree = "<group>"; };
+		1CD48C701CBF8C4A00EDFB6A /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = ../iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +120,11 @@
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
 				067CFA9C1CBE71AD0021618F /* Main.storyboard */,
 				067CFADC1CBF85130021618F /* Launch Screen.storyboard */,
-				067CFAD31CBE8F680021618F /* iCarousel.h */,
-				067CFAD41CBE8F680021618F /* iCarousel.m */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
 				067CFAA41CBE71AD0021618F /* Info.plist */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
+				1CD48C6F1CBF8C4A00EDFB6A /* iCarousel.h */,
+				1CD48C701CBF8C4A00EDFB6A /* iCarousel.m */,
 			);
 			path = Jolicut;
 			sourceTree = "<group>";
@@ -144,6 +150,9 @@
 		067CFADE1CBF89440021618F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1CD48C6A1CBF8B6100EDFB6A /* Logo_JoliCut.png */,
+				1CD48C6B1CBF8B6100EDFB6A /* security-512.png */,
+				1CD48C691CBF8B6100EDFB6A /* User_Icon.png */,
 				067CFADF1CBF89590021618F /* 1.jpg */,
 				067CFAE01CBF89590021618F /* 2.jpg */,
 				067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */,
@@ -257,12 +266,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				067CFAE41CBF89590021618F /* 2.jpg in Resources */,
+				1CD48C6C1CBF8B6100EDFB6A /* User_Icon.png in Resources */,
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
 				067CFAE61CBF89590021618F /* LogoInvert_JoliCut.png in Resources */,
 				067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */,
 				067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */,
+				1CD48C6E1CBF8B6100EDFB6A /* security-512.png in Resources */,
 				067CFAE51CBF89590021618F /* LogoIcon_JoliCut.png in Resources */,
 				067CFAE31CBF89590021618F /* 1.jpg in Resources */,
+				1CD48C6D1CBF8B6100EDFB6A /* Logo_JoliCut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067CFAD51CBE8F680021618F /* iCarousel.m in Sources */,
+				1CD48C711CBF8C4A00EDFB6A /* iCarousel.m in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 			);
