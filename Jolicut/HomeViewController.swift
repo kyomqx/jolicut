@@ -17,7 +17,7 @@ class HomeViewController: UIViewController, iCarouselDataSource, iCarouselDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         DisplayView.type = iCarouselType.Linear
-        DisplayView.scrollToItemAtIndex(1, duration: 60)
+        DisplayView.scrollToItemAtIndex(1, duration: 2)
     }
     
     func numberOfItemsInCarousel(carousel: iCarousel) -> Int {
