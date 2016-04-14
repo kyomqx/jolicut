@@ -405,6 +405,10 @@
         <scene sceneID="76E-g9-DEB">
             <objects>
                 <viewController id="gj7-fg-RVi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VVG-Fk-vdx"/>
+                        <viewControllerLayoutGuide type="bottom" id="rbC-Ft-tMH"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="reJ-Nz-ZVF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -419,7 +423,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6QB-Gh-72v">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="6QB-Gh-72v">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -732,6 +736,6 @@
         <image name="RecLogo_JoliCut NOB_Black.png" width="1419" height="334"/>
         <image name="RecLogo_JoliCutNOB" width="1500" height="500"/>
         <image name="User_Icon.png" width="512" height="512"/>
-        <image name="cadenas" width="512" height="512"/>
+        <image name="security-512.png" width="1500" height="500"/>
     </resources>
 </document>
