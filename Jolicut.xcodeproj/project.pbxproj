@@ -119,6 +119,8 @@
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
 				067CFAA41CBE71AD0021618F /* Info.plist */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
+				1CD48C6F1CBF8C4A00EDFB6A /* iCarousel.h */,
+				1CD48C701CBF8C4A00EDFB6A /* iCarousel.m */,
 			);
 			path = Jolicut;
 			sourceTree = "<group>";
@@ -144,6 +146,9 @@
 		067CFADE1CBF89440021618F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1CD48C6A1CBF8B6100EDFB6A /* Logo_JoliCut.png */,
+				1CD48C6B1CBF8B6100EDFB6A /* security-512.png */,
+				1CD48C691CBF8B6100EDFB6A /* User_Icon.png */,
 				067CFADF1CBF89590021618F /* 1.jpg */,
 				067CFAE01CBF89590021618F /* 2.jpg */,
 				067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */,
@@ -257,12 +262,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				067CFAE41CBF89590021618F /* 2.jpg in Resources */,
+				1CD48C6C1CBF8B6100EDFB6A /* User_Icon.png in Resources */,
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
 				067CFAE61CBF89590021618F /* LogoInvert_JoliCut.png in Resources */,
 				067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */,
 				067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */,
+				1CD48C6E1CBF8B6100EDFB6A /* security-512.png in Resources */,
 				067CFAE51CBF89590021618F /* LogoIcon_JoliCut.png in Resources */,
 				067CFAE31CBF89590021618F /* 1.jpg in Resources */,
+				1CD48C6D1CBF8B6100EDFB6A /* Logo_JoliCut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
