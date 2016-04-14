@@ -10,7 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController, iCarouselDataSource, iCarouselDelegate {
     
-    let imageArray : NSMutableArray = ["1.jpg", "2.jpg"]
+    let imageArray : NSMutableArray = ["1.jpg", "2.jpg", "3.jpg"]
     
     @IBOutlet weak var DisplayView: iCarousel!
     
@@ -19,15 +19,20 @@ class HomeViewController: UIViewController, iCarouselDataSource, iCarouselDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         DisplayView.type = iCarouselType.Linear
-        _ = NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: #selector(HomeViewController.EnabledAutoscroll), userInfo: nil, repeats: true)
-        _ = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(HomeViewController.Enabled2Autoscroll), userInfo: nil, repeats: true)
+        _ = NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: #selector(HomeViewController.EnabledAutoscroll1), userInfo: nil, repeats: true)
+        _ = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(HomeViewController.EnabledAutoscroll2), userInfo: nil, repeats: true)
+        _ = NSTimer.scheduledTimerWithTimeInterval(15, target: self, selector: #selector(HomeViewController.EnabledAutoscroll3), userInfo: nil, repeats: true)
     }
     
-    func EnabledAutoscroll() {
+    func EnabledAutoscroll1() {
         DisplayView.scrollToItemAtIndex(1, duration: 1)
     }
     
-    func Enabled2Autoscroll() {
+    func EnabledAutoscroll2() {
+        DisplayView.scrollToItemAtIndex(2, duration: 1)
+    }
+    
+    func EnabledAutoscroll3() {
         DisplayView.scrollToItemAtIndex(0, duration: 1)
     }
     
