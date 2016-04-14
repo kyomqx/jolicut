@@ -11,11 +11,11 @@
 		067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFA9A1CBE71AD0021618F /* HomeViewController.swift */; };
 		067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFA9C1CBE71AD0021618F /* Main.storyboard */; };
 		067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067CFA9F1CBE71AD0021618F /* Assets.xcassets */; };
-		067CFAA31CBE71AD0021618F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAA11CBE71AD0021618F /* LaunchScreen.storyboard */; };
 		067CFAAE1CBE71AD0021618F /* JolicutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAAD1CBE71AD0021618F /* JolicutTests.swift */; };
 		067CFAB91CBE71AD0021618F /* JolicutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAB81CBE71AD0021618F /* JolicutUITests.swift */; };
 		067CFACB1CBE72710021618F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 067CFACA1CBE72710021618F /* Images */; };
 		067CFAD51CBE8F680021618F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAD41CBE8F680021618F /* iCarousel.m */; };
+		067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		067CFA9A1CBE71AD0021618F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		067CFA9D1CBE71AD0021618F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067CFA9F1CBE71AD0021618F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		067CFAA21CBE71AD0021618F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		067CFAA41CBE71AD0021618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067CFAA91CBE71AD0021618F /* JolicutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JolicutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		067CFAAD1CBE71AD0021618F /* JolicutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JolicutTests.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jolicut-Bridging-Header.h"; sourceTree = "<group>"; };
 		067CFAD31CBE8F680021618F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = "../../iCarousel-master/iCarousel/iCarousel.h"; sourceTree = "<group>"; };
 		067CFAD41CBE8F680021618F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = "../../iCarousel-master/iCarousel/iCarousel.m"; sourceTree = "<group>"; };
+		067CFADC1CBF85130021618F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
 				067CFA9C1CBE71AD0021618F /* Main.storyboard */,
+				067CFADC1CBF85130021618F /* Launch Screen.storyboard */,
 				067CFAD31CBE8F680021618F /* iCarousel.h */,
 				067CFAD41CBE8F680021618F /* iCarousel.m */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
-				067CFAA11CBE71AD0021618F /* LaunchScreen.storyboard */,
 				067CFAA41CBE71AD0021618F /* Info.plist */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
 			);
@@ -240,8 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				067CFACB1CBE72710021618F /* Images in Resources */,
-				067CFAA31CBE71AD0021618F /* LaunchScreen.storyboard in Resources */,
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
+				067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */,
 				067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +311,6 @@
 				067CFA9D1CBE71AD0021618F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		067CFAA11CBE71AD0021618F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				067CFAA21CBE71AD0021618F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
