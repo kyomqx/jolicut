@@ -13,9 +13,12 @@
 		067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067CFA9F1CBE71AD0021618F /* Assets.xcassets */; };
 		067CFAAE1CBE71AD0021618F /* JolicutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAAD1CBE71AD0021618F /* JolicutTests.swift */; };
 		067CFAB91CBE71AD0021618F /* JolicutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAB81CBE71AD0021618F /* JolicutUITests.swift */; };
-		067CFACB1CBE72710021618F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 067CFACA1CBE72710021618F /* Images */; };
 		067CFAD51CBE8F680021618F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAD41CBE8F680021618F /* iCarousel.m */; };
 		067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch Screen.storyboard */; };
+		067CFAE31CBF89590021618F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADF1CBF89590021618F /* 1.jpg */; };
+		067CFAE41CBF89590021618F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE01CBF89590021618F /* 2.jpg */; };
+		067CFAE51CBF89590021618F /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */; };
+		067CFAE61CBF89590021618F /* LogoInvert_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE21CBF89590021618F /* LogoInvert_JoliCut.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +51,14 @@
 		067CFAB41CBE71AD0021618F /* JolicutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JolicutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		067CFAB81CBE71AD0021618F /* JolicutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JolicutUITests.swift; sourceTree = "<group>"; };
 		067CFABA1CBE71AD0021618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		067CFACA1CBE72710021618F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../Images; sourceTree = "<group>"; };
 		067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jolicut-Bridging-Header.h"; sourceTree = "<group>"; };
 		067CFAD31CBE8F680021618F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = "../../iCarousel-master/iCarousel/iCarousel.h"; sourceTree = "<group>"; };
 		067CFAD41CBE8F680021618F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = "../../iCarousel-master/iCarousel/iCarousel.m"; sourceTree = "<group>"; };
 		067CFADC1CBF85130021618F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		067CFADF1CBF89590021618F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		067CFAE01CBF89590021618F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
+		067CFAE21CBF89590021618F /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,7 @@
 		067CFA8C1CBE71AD0021618F = {
 			isa = PBXGroup;
 			children = (
-				067CFACA1CBE72710021618F /* Images */,
+				067CFADE1CBF89440021618F /* Images */,
 				067CFA971CBE71AD0021618F /* Jolicut */,
 				067CFAAC1CBE71AD0021618F /* JolicutTests */,
 				067CFAB71CBE71AD0021618F /* JolicutUITests */,
@@ -133,6 +139,17 @@
 				067CFABA1CBE71AD0021618F /* Info.plist */,
 			);
 			path = JolicutUITests;
+			sourceTree = "<group>";
+		};
+		067CFADE1CBF89440021618F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				067CFADF1CBF89590021618F /* 1.jpg */,
+				067CFAE01CBF89590021618F /* 2.jpg */,
+				067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */,
+				067CFAE21CBF89590021618F /* LogoInvert_JoliCut.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,10 +256,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067CFACB1CBE72710021618F /* Images in Resources */,
+				067CFAE41CBF89590021618F /* 2.jpg in Resources */,
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
+				067CFAE61CBF89590021618F /* LogoInvert_JoliCut.png in Resources */,
 				067CFADD1CBF85130021618F /* Launch Screen.storyboard in Resources */,
 				067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */,
+				067CFAE51CBF89590021618F /* LogoIcon_JoliCut.png in Resources */,
+				067CFAE31CBF89590021618F /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +513,7 @@
 				067CFABF1CBE71AD0021618F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067CFAC01CBE71AD0021618F /* Build configuration list for PBXNativeTarget "JolicutTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +522,7 @@
 				067CFAC21CBE71AD0021618F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067CFAC31CBE71AD0021618F /* Build configuration list for PBXNativeTarget "JolicutUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +531,7 @@
 				067CFAC51CBE71AD0021618F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
