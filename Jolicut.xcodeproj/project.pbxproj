@@ -22,6 +22,9 @@
 		067CFAEB1CBF90F80021618F /* security-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE81CBF90F80021618F /* security-512.png */; };
 		067CFAEC1CBF90F80021618F /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 067CFAE91CBF90F80021618F /* User_Icon.png */; };
 		F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F27C58021CBF8BE900852C8F /* iCarousel.m */; };
+		F27C58071CBF911400852C8F /* Logo_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = F27C58041CBF911400852C8F /* Logo_JoliCut.png */; };
+		F27C58081CBF911400852C8F /* security-512.png in Resources */ = {isa = PBXBuildFile; fileRef = F27C58051CBF911400852C8F /* security-512.png */; };
+		F27C58091CBF911400852C8F /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F27C58061CBF911400852C8F /* User_Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		067CFAE91CBF90F80021618F /* User_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User_Icon.png; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		F27C58041CBF911400852C8F /* Logo_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_JoliCut.png; sourceTree = "<group>"; };
+		F27C58051CBF911400852C8F /* security-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "security-512.png"; sourceTree = "<group>"; };
+		F27C58061CBF911400852C8F /* User_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User_Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,9 @@
 				067CFAE81CBF90F80021618F /* security-512.png */,
 				067CFAE91CBF90F80021618F /* User_Icon.png */,
 				067CFADF1CBF89590021618F /* 1.jpg */,
+				F27C58041CBF911400852C8F /* Logo_JoliCut.png */,
+				F27C58051CBF911400852C8F /* security-512.png */,
+				F27C58061CBF911400852C8F /* User_Icon.png */,
 				067CFAE01CBF89590021618F /* 2.jpg */,
 				067CFAE11CBF89590021618F /* LogoIcon_JoliCut.png */,
 				067CFAE21CBF89590021618F /* LogoInvert_JoliCut.png */,
