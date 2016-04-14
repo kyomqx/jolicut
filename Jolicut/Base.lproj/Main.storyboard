@@ -707,7 +707,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoIcon_JoliCut" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-d2-Xxg">
-                                <rect key="frame" x="89" y="35" width="142" height="128"/>
+                                <rect key="frame" x="178" y="34" width="142" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.85882352939999995" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
