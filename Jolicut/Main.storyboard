@@ -333,7 +333,7 @@
                                     <segue destination="sig-He-JpM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zat-GD-TNG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
                                 <rect key="frame" x="65" y="45" width="190" height="145"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx">
@@ -395,7 +395,14 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Se Connecter" id="VKo-kL-Ydr"/>
+                    <navigationItem key="navigationItem" title="Se Connecter" id="VKo-kL-Ydr">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="ekc-1e-Afl">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="push" id="h2B-ea-m1X"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="monchamp" destination="KEX-2G-xdf" id="AeK-BC-2rd"/>
@@ -932,7 +939,7 @@
             </objects>
             <point key="canvasLocation" x="1077" y="673.5"/>
         </scene>
-        <!--Date Picker-->
+        <!--S'inscrire-->
         <scene sceneID="kKU-Nz-TLR">
             <objects>
                 <viewController id="Ayy-Hi-58R" customClass="DatePicker" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
@@ -1061,7 +1068,14 @@
                             <constraint firstItem="Rm3-6a-bAG" firstAttribute="leading" secondItem="7oo-ls-Zip" secondAttribute="leading" id="zup-nl-TjD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="tWO-V2-85H"/>
+                    <navigationItem key="navigationItem" title="S'inscrire" id="tWO-V2-85H">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="vXx-CS-ui8">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="push" id="5Y8-b8-sPr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="dateText" destination="Own-dh-knH" id="BE6-a0-fzi"/>
                     </connections>
@@ -1131,7 +1145,8 @@
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="da6-Vp-kYc"/>
+        <segue reference="5Y8-b8-sPr"/>
+        <segue reference="vfj-dm-c7h"/>
         <segue reference="dKG-41-xf4"/>
     </inferredMetricsTieBreakers>
 </document>
