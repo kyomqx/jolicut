@@ -23,7 +23,6 @@ class seConnecter: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Code à charger pendant le chargement de la vue.
-        
     }
     
     override func viewDidAppear(animated: Bool) {

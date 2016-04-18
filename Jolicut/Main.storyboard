@@ -212,6 +212,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrS-DR-Oaq">
                                                     <rect key="frame" x="8" y="5" width="304" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <state key="normal" title="Deconnexion">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
@@ -265,6 +266,9 @@
                             <outlet property="delegate" destination="apf-Tm-r0C" id="aYZ-zg-Juz"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="PEW-kt-VGX" kind="custom" identifier="linkHtoC" customClass="SWRevealViewControllerSeguePushController" id="da6-Vp-kYc"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tam-Gj-8R3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -342,7 +346,7 @@
         <!--Se Connecter-->
         <scene sceneID="zka-8m-X4t">
             <objects>
-                <viewController id="PEW-kt-VGX" customClass="seConnecter" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="seConnecter" id="PEW-kt-VGX" customClass="seConnecter" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u41-ze-tbv"/>
                         <viewControllerLayoutGuide type="bottom" id="boX-Pz-eC6"/>
@@ -1137,6 +1141,7 @@
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="da6-Vp-kYc"/>
         <segue reference="dKG-41-xf4"/>
     </inferredMetricsTieBreakers>
 </document>
