@@ -46,18 +46,20 @@
                             </button>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLY-bI-M6X" customClass="iCarousel">
                                 <rect key="frame" x="0.0" y="20" width="320" height="498"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RecLogo_JoliCutNOB (2)" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
+                                        <rect key="frame" x="50" y="15" width="220" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="EbR-Yt-Wp5"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="SHw-ZZ-qTa"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="WVA-y8-wJV"/>
                                 </connections>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCutNOB (2)" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
-                                <rect key="frame" x="50" y="35" width="220" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="EbR-Yt-Wp5"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -66,15 +68,12 @@
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="firstBaseline" secondItem="GVo-17-NoJ" secondAttribute="baseline" id="96Y-m9-GYv"/>
                             <constraint firstItem="fLY-bI-M6X" firstAttribute="trailing" secondItem="GVo-17-NoJ" secondAttribute="trailing" id="Dwg-jH-Ido"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="baseline" secondItem="GVo-17-NoJ" secondAttribute="firstBaseline" id="HA9-Zm-1hC"/>
-                            <constraint firstItem="SAv-vW-dvq" firstAttribute="leading" secondItem="fLY-bI-M6X" secondAttribute="leading" constant="50" id="LRv-Yh-C3r"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="leading" secondItem="fLY-bI-M6X" secondAttribute="leading" id="Qpl-ej-MDb"/>
-                            <constraint firstItem="SAv-vW-dvq" firstAttribute="trailing" secondItem="fLY-bI-M6X" secondAttribute="trailing" constant="-50" id="Wbl-Sj-csg"/>
                             <constraint firstItem="fLY-bI-M6X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fn3-yA-sll"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="top" secondItem="GVo-17-NoJ" secondAttribute="top" id="h7j-jb-7Cz"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="top" secondItem="fLY-bI-M6X" secondAttribute="bottom" id="kTG-kX-MDj"/>
                             <constraint firstItem="fLY-bI-M6X" firstAttribute="top" secondItem="Rkb-tF-bmG" secondAttribute="bottom" id="uhQ-cA-HKG"/>
                             <constraint firstItem="GVo-17-NoJ" firstAttribute="leading" secondItem="Xdn-qK-Pcx" secondAttribute="trailing" id="wiw-mq-xgi"/>
-                            <constraint firstItem="SAv-vW-dvq" firstAttribute="top" secondItem="Rkb-tF-bmG" secondAttribute="bottom" constant="15" id="zvP-2Q-dEZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SJm-Vz-Tgc"/>
@@ -338,7 +337,7 @@
         <!--Se Connecter-->
         <scene sceneID="zka-8m-X4t">
             <objects>
-                <viewController id="PEW-kt-VGX" customClass="Connexion" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PEW-kt-VGX" customClass="seConnecter" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u41-ze-tbv"/>
                         <viewControllerLayoutGuide type="bottom" id="boX-Pz-eC6"/>
@@ -364,6 +363,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Connexion"/>
+                                <connections>
+                                    <action selector="seConnecter:" destination="PEW-kt-VGX" eventType="touchUpInside" id="htS-ES-Bgw"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
                                 <rect key="frame" x="65" y="45" width="190" height="145"/>
@@ -416,6 +418,10 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Se Connecter" id="VKo-kL-Ydr"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="monchamp" destination="KEX-2G-xdf" id="AeK-BC-2rd"/>
+                        <outlet property="monchamp2" destination="mq5-bR-icx" id="4Ss-be-zaD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Lw-cs-TYC" sceneMemberID="firstResponder"/>
             </objects>

@@ -26,10 +26,10 @@
 		1CD48C791CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */; };
 		1CD48C7B1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */; };
 		1CD48C7F1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */; };
+		1CF9BA871CC4F9440061C26E /* seConnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA861CC4F9440061C26E /* seConnecter.swift */; };
 		6940CDF41CBFECB3001954A8 /* cadenas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6940CDF31CBFECB3001954A8 /* cadenas.png */; };
 		6940CDFF1CC4E0FA001954A8 /* RecLogo_JoliCutNOB (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 6940CDFE1CC4E0FA001954A8 /* RecLogo_JoliCutNOB (1).png */; };
 		6940CE011CC4E277001954A8 /* RecLogo_JoliCutNOB (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 6940CE001CC4E277001954A8 /* RecLogo_JoliCutNOB (2).png */; };
-		6940CE041CC4E447001954A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6940CE031CC4E447001954A8 /* ViewController.swift */; };
 		699545AB1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AC1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AD1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -87,11 +87,10 @@
 		1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black.png"; sourceTree = "<group>"; };
 		1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecLogo_JoliCutNOB.png; sourceTree = "<group>"; };
+		1CF9BA861CC4F9440061C26E /* seConnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seConnecter.swift; sourceTree = "<group>"; };
 		6940CDF31CBFECB3001954A8 /* cadenas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadenas.png; sourceTree = "<group>"; };
 		6940CDFE1CC4E0FA001954A8 /* RecLogo_JoliCutNOB (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCutNOB (1).png"; sourceTree = "<group>"; };
 		6940CE001CC4E277001954A8 /* RecLogo_JoliCutNOB (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCutNOB (2).png"; sourceTree = "<group>"; };
-		6940CE021CC4E43E001954A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6940CE031CC4E447001954A8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,10 +150,9 @@
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
 				067CFA9C1CBE71AD0021618F /* Main.storyboard */,
+				1CF9BA861CC4F9440061C26E /* seConnecter.swift */,
 				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
-				6940CE021CC4E43E001954A8 /* ViewController.h */,
-				6940CE031CC4E447001954A8 /* ViewController.swift */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
 				F27C58021CBF8BE900852C8F /* iCarousel.m */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
@@ -362,7 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6940CE041CC4E447001954A8 /* ViewController.swift in Sources */,
+				1CF9BA871CC4F9440061C26E /* seConnecter.swift in Sources */,
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
