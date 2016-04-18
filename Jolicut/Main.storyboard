@@ -32,14 +32,6 @@
                             </button>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLY-bI-M6X" customClass="iCarousel">
                                 <rect key="frame" x="0.0" y="20" width="320" height="498"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RecLogo_JoliCutNOB (2)" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
-                                        <rect key="frame" x="50" y="15" width="220" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="EbR-Yt-Wp5"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="SHw-ZZ-qTa"/>
@@ -60,6 +52,12 @@
                                     <segue destination="PEW-kt-VGX" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1xX-k8-2jY"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCutNOB (2)" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
+                                <rect key="frame" x="50" y="35" width="220" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1eC-Oz-ZgG"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -69,9 +67,12 @@
                             <constraint firstItem="fLY-bI-M6X" firstAttribute="trailing" secondItem="GVo-17-NoJ" secondAttribute="trailing" id="Dwg-jH-Ido"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="baseline" secondItem="GVo-17-NoJ" secondAttribute="firstBaseline" id="HA9-Zm-1hC"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="leading" secondItem="fLY-bI-M6X" secondAttribute="leading" id="Qpl-ej-MDb"/>
+                            <constraint firstItem="SAv-vW-dvq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="Txb-ia-sjd"/>
                             <constraint firstItem="fLY-bI-M6X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fn3-yA-sll"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="top" secondItem="GVo-17-NoJ" secondAttribute="top" id="h7j-jb-7Cz"/>
+                            <constraint firstItem="SAv-vW-dvq" firstAttribute="top" secondItem="Rkb-tF-bmG" secondAttribute="bottom" constant="15" id="jX4-XS-Kom"/>
                             <constraint firstItem="Xdn-qK-Pcx" firstAttribute="top" secondItem="fLY-bI-M6X" secondAttribute="bottom" id="kTG-kX-MDj"/>
+                            <constraint firstItem="SAv-vW-dvq" firstAttribute="centerX" secondItem="fLY-bI-M6X" secondAttribute="centerX" id="rh0-6T-zeS"/>
                             <constraint firstItem="fLY-bI-M6X" firstAttribute="top" secondItem="Rkb-tF-bmG" secondAttribute="bottom" id="uhQ-cA-HKG"/>
                             <constraint firstItem="GVo-17-NoJ" firstAttribute="leading" secondItem="Xdn-qK-Pcx" secondAttribute="trailing" id="wiw-mq-xgi"/>
                         </constraints>
