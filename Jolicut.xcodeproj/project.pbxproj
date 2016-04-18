@@ -157,6 +157,7 @@
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
 				067CFAA41CBE71AD0021618F /* Info.plist */,
+				690726DA1CC547EB00585060 /* DatePicker.swift */,
 			);
 			path = Jolicut;
 			sourceTree = "<group>";
@@ -362,6 +363,7 @@
 				1CF9BA8B1CC513310061C26E /* seConnecter.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
+				690726DB1CC547EB00585060 /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
