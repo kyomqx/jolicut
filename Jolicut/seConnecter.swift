@@ -32,7 +32,7 @@ class seConnecter: UIViewController {
         let estLoguer:Int = maVariableIneffacable.integerForKey("estCO") as Int
         if(estLoguer == 1){
             //si on est connecté à l'ouverture de l'appliction
-            self.performSegueWithIdentifier("r", sender: self)
+            self.performSegueWithIdentifier("linkCtoH", sender: self)
         }
     }
     
@@ -56,11 +56,11 @@ class seConnecter: UIViewController {
             alert.show()
         }else{
             
-            let post:NSString = "pseudo=\(username)&mdp=\(password)"
+            let post:NSString = "Identifiant=\(username)&Mdp=\(password)"
             
             NSLog("PostData: %@",post);
             
-            let url:NSURL = NSURL(string:"http://tuto.a-j-evolution.com/exemples/ioslogin/login.php")!
+            let url:NSURL = NSURL(string:"https://serveur-mqx.c9users.io/login.php")!
             
             let postData:NSData = post.dataUsingEncoding(NSASCIIStringEncoding)!
             
@@ -117,17 +117,17 @@ class seConnecter: UIViewController {
                     {
                         NSLog("Login OK");
                         
-                        let idJSON:NSString = jsonData.valueForKey("id") as! NSString
-                        let nomJSON:NSString = jsonData.valueForKey("nom") as! NSString
-                        let pseudoJSON:NSString = jsonData.valueForKey("pseudo") as! NSString
+                        let IdJSON:NSString = jsonData.valueForKey("Id") as! NSString
+                        let NomJSON:NSString = jsonData.valueForKey("Nom") as! NSString
+                        let IdentifiantJSON:NSString = jsonData.valueForKey("Identifiant") as! NSString
                         
-                        maVariableIneffacable.setObject(idJSON, forKey: "ID")
-                        maVariableIneffacable.setObject(nomJSON, forKey: "NOM")
-                        maVariableIneffacable.setObject(pseudoJSON, forKey: "PSEUDO")
+                        maVariableIneffacable.setObject(IdJSON, forKey: "Id")
+                        maVariableIneffacable.setObject(NomJSON, forKey: "Nom")
+                        maVariableIneffacable.setObject(IdentifiantJSON, forKey: "Identifiant")
                         maVariableIneffacable.setInteger(1, forKey: "estCO")
                         maVariableIneffacable.synchronize()
                         
-                        self.performSegueWithIdentifier("r", sender: self)
+                        self.performSegueWithIdentifier("linkCtoH", sender: self)
                         
                     }else{
                         NSLog("Login échoué");
