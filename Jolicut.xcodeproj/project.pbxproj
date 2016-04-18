@@ -119,6 +119,7 @@
 		067CFA8C1CBE71AD0021618F = {
 			isa = PBXGroup;
 			children = (
+				1CF9BA811CC4DB760061C26E /* Fonts */,
 				067CFADE1CBF89440021618F /* Images */,
 				067CFA971CBE71AD0021618F /* Jolicut */,
 				067CFAAC1CBE71AD0021618F /* JolicutTests */,
@@ -190,6 +191,13 @@
 				06CAF7071CBFE65E00BEB7BF /* User_Icon.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		1CF9BA811CC4DB760061C26E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
