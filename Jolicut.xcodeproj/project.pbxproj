@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061062511CBFCF4E00FB5266 /* OutViewController.swift */; };
-		061062541CBFD79700FB5266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061062531CBFD79700FB5266 /* ViewController.swift */; };
 		067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFA981CBE71AD0021618F /* AppDelegate.swift */; };
 		067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFA9A1CBE71AD0021618F /* HomeViewController.swift */; };
 		067CFA9E1CBE71AD0021618F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFA9C1CBE71AD0021618F /* Main.storyboard */; };
@@ -59,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		061062511CBFCF4E00FB5266 /* OutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutViewController.swift; sourceTree = "<group>"; };
-		061062531CBFD79700FB5266 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		067CFA951CBE71AD0021618F /* Jolicut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jolicut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067CFA981CBE71AD0021618F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		067CFA9A1CBE71AD0021618F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -143,8 +141,8 @@
 				067CFAFA1CBFB1410021618F /* SWRevealViewController.m */,
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
-				061062531CBFD79700FB5266 /* ViewController.swift */,
 				067CFA9C1CBE71AD0021618F /* Main.storyboard */,
+				1CF9BA861CC4F9440061C26E /* seConnecter.swift */,
 				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
@@ -177,7 +175,9 @@
 		067CFADE1CBF89440021618F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6940CDFE1CC4E0FA001954A8 /* RecLogo_JoliCutNOB (1).png */,
 				1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */,
+				6940CE001CC4E277001954A8 /* RecLogo_JoliCutNOB (2).png */,
 				1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */,
 				1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */,
 				1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */,
@@ -306,7 +306,9 @@
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
 				699545B31CBFCBEF0079C3E5 /* (null) in Resources */,
 				699545AF1CBFC6860079C3E5 /* (null) in Resources */,
+				6940CE011CC4E277001954A8 /* RecLogo_JoliCutNOB (2).png in Resources */,
 				699545AB1CBFC6860079C3E5 /* (null) in Resources */,
+				6940CDFF1CC4E0FA001954A8 /* RecLogo_JoliCutNOB (1).png in Resources */,
 				06CAF7091CBFE65E00BEB7BF /* 3.jpg in Resources */,
 				06CAF7081CBFE65E00BEB7BF /* 2.jpg in Resources */,
 				699545B61CBFCD4E0079C3E5 /* (null) in Resources */,
@@ -348,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061062541CBFD79700FB5266 /* ViewController.swift in Sources */,
+				1CF9BA871CC4F9440061C26E /* seConnecter.swift in Sources */,
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
