@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="f1z-c8-402">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="6jh-8e-NlQ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -20,20 +20,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdn-qK-Pcx">
-                                <rect key="frame" x="0.0" y="518" width="160" height="50"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="KUU-FB-Q7z"/>
-                                    <constraint firstAttribute="width" constant="190" id="cWb-9E-Fyn"/>
-                                </constraints>
-                                <state key="normal" title="Connexion">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PEW-kt-VGX" kind="push" id="XHA-XE-ctr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVo-17-NoJ">
                                 <rect key="frame" x="160" y="518" width="160" height="50"/>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,7 +27,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ayy-Hi-58R" kind="push" id="rT5-XT-Dwq"/>
+                                    <segue destination="0Ec-Y1-KnT" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="sGe-YA-fWB"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLY-bI-M6X" customClass="iCarousel">
@@ -60,6 +46,20 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="WVA-y8-wJV"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdn-qK-Pcx">
+                                <rect key="frame" x="0.0" y="518" width="160" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="KUU-FB-Q7z"/>
+                                    <constraint firstAttribute="width" constant="190" id="cWb-9E-Fyn"/>
+                                </constraints>
+                                <state key="normal" title="Connexion">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PEW-kt-VGX" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1xX-k8-2jY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -100,13 +100,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="DZA-IV-G7j"/>
                     <connections>
-                        <segue destination="sig-He-JpM" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="CUA-zh-9zM"/>
                         <segue destination="apf-Tm-r0C" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="bZH-rh-1z6"/>
+                        <segue destination="f1z-c8-402" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="pYY-DL-3ub"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkb-ko-vFL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="485" y="2188"/>
+            <point key="canvasLocation" x="-647" y="1555"/>
         </scene>
         <!--slidebar-->
         <scene sceneID="DgK-2D-VSz">
@@ -264,7 +264,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tam-Gj-8R3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="976" y="1875"/>
+            <point key="canvasLocation" x="783" y="1263"/>
         </scene>
         <!--Accueil-->
         <scene sceneID="8J8-f2-eSx">
@@ -309,7 +309,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Xe-GZ-Cfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1368" y="2518"/>
+            <point key="canvasLocation" x="1175" y="1906"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ymH-ut-Tqe">
@@ -355,17 +355,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Mot de passe oublié ?"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egi-rS-1BV">
-                                <rect key="frame" x="0.0" y="339" width="320" height="40"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="8zd-jl-1aU"/>
-                                </constraints>
-                                <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Connexion"/>
                                 <connections>
-                                    <action selector="seConnecter:" destination="PEW-kt-VGX" eventType="touchUpInside" id="htS-ES-Bgw"/>
+                                    <segue destination="sig-He-JpM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zat-GD-TNG"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
@@ -395,6 +386,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egi-rS-1BV">
+                                <rect key="frame" x="0.0" y="339" width="320" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8zd-jl-1aU"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Connexion"/>
+                                <connections>
+                                    <action selector="seConnecter:" destination="PEW-kt-VGX" eventType="touchUpInside" id="htS-ES-Bgw"/>
+                                    <segue destination="sig-He-JpM" kind="custom" identifier="linkCtoH" customClass="SWRevealViewControllerSeguePushController" id="dKG-41-xf4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843137254903" green="0.8901960784313725" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -687,7 +691,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="klK-Tb-dTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="801" y="536"/>
+            <point key="canvasLocation" x="573" y="443.5"/>
         </scene>
         <!--profil prestataire-->
         <scene sceneID="FXD-2w-v8p">
@@ -952,7 +956,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4BO-m5-HBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1226" y="941.5"/>
+            <point key="canvasLocation" x="974" y="443.5"/>
         </scene>
         <!--Inscript-->
         <scene sceneID="kKU-Nz-TLR">
@@ -993,7 +997,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZCU-q8-nkJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZCU-q8-nkJ">
                                 <rect key="frame" x="65" y="25" width="190" height="190"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rm3-6a-bAG">
@@ -1084,7 +1088,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLx-PD-eGI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="382" y="1279"/>
+            <point key="canvasLocation" x="2118" y="1279"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="whg-kS-fLw">
@@ -1102,7 +1106,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcp-ap-OYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968" y="2518"/>
+            <point key="canvasLocation" x="775" y="1906"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NHk-Up-JEt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Ec-Y1-KnT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p5s-Rg-U3g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ayy-Hi-58R" kind="relationship" relationship="rootViewController" id="Vhs-e9-h1d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBG-87-G8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1586" y="1279"/>
         </scene>
     </scenes>
     <resources>
@@ -1110,4 +1132,7 @@
         <image name="RecLogo_JoliCut NOB_Black.png" width="1419" height="334"/>
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="dKG-41-xf4"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -41,8 +41,8 @@ class seConnecter: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     @IBAction func seConnecter(sender: UIButton) {
+            //On récupère les valeur que l'utilisateur a entré
         let username:NSString = monchamp.text!
         let password:NSString = monchamp2.text!
         
@@ -117,13 +117,13 @@ class seConnecter: UIViewController {
                     {
                         NSLog("Login OK");
                         
-                        let IdJSON:NSString = jsonData.valueForKey("Id") as! NSString
-                        let NomJSON:NSString = jsonData.valueForKey("Nom") as! NSString
-                        let IdentifiantJSON:NSString = jsonData.valueForKey("Identifiant") as! NSString
+                        let idJSON:NSString = jsonData.valueForKey("Id") as! NSString
+                        let nomJSON:NSString = jsonData.valueForKey("Nom") as! NSString
+                        let identifiantJSON:NSString = jsonData.valueForKey("Identifiant") as! NSString
                         
-                        maVariableIneffacable.setObject(IdJSON, forKey: "Id")
-                        maVariableIneffacable.setObject(NomJSON, forKey: "Nom")
-                        maVariableIneffacable.setObject(IdentifiantJSON, forKey: "Identifiant")
+                        maVariableIneffacable.setObject(idJSON, forKey: "Id")
+                        maVariableIneffacable.setObject(nomJSON, forKey: "Nom")
+                        maVariableIneffacable.setObject(identifiantJSON, forKey: "Identifiant")
                         maVariableIneffacable.setInteger(1, forKey: "estCO")
                         maVariableIneffacable.synchronize()
                         
@@ -159,9 +159,8 @@ class seConnecter: UIViewController {
                 alertView.delegate = self
                 alertView.addButtonWithTitle("OK")
                 alertView.show()
-            }
-            
-        }//fin du SI champs vides
+                }
+                
+            }//fin du SI champs vides
     }
-
 }
