@@ -966,10 +966,10 @@
             </objects>
             <point key="canvasLocation" x="995" y="1719.5"/>
         </scene>
-        <!--Inscript-->
+        <!--Date Picker-->
         <scene sceneID="kKU-Nz-TLR">
             <objects>
-                <viewController id="Ayy-Hi-58R" customClass="inscript" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ayy-Hi-58R" customClass="DatePicker" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sdu-Wp-vKV"/>
                         <viewControllerLayoutGuide type="bottom" id="gyA-O2-qDo"/>
@@ -995,8 +995,11 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ayy-Hi-58R" id="OB5-OS-E6d"/>
+                                </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5xk-TM-9R4" customClass="inscr">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5xk-TM-9R4">
                                 <rect key="frame" x="0.0" y="348" width="320" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1006,7 +1009,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZCU-q8-nkJ">
-                                <rect key="frame" x="65" y="25" width="190" height="190"/>
+                                <rect key="frame" x="65" y="35" width="190" height="190"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rm3-6a-bAG">
                                 <rect key="frame" x="0.0" y="266" width="320" height="40"/>
@@ -1050,7 +1053,7 @@
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En vous inscrivant sur JoliCut, vous agréez aux termes &amp; conditions de celui ci, ainsi que la politique de la société." textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="P9a-CE-dFV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En vous inscrivant sur JoliCut, vous agréez aux termes &amp; conditions de celui ci, ainsi que la politique de la société." textAlignment="justified" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="P9a-CE-dFV">
                                 <rect key="frame" x="0.0" y="514" width="320" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="iBk-OR-OGn"/>
@@ -1077,7 +1080,7 @@
                             <constraint firstItem="ZCU-q8-nkJ" firstAttribute="leading" secondItem="wlV-4F-gyI" secondAttribute="leadingMargin" constant="49" id="agn-Iy-ghN"/>
                             <constraint firstItem="Own-dh-knH" firstAttribute="leading" secondItem="NfE-QN-e9a" secondAttribute="leading" constant="-1" id="cLb-BZ-Wx3"/>
                             <constraint firstItem="5xk-TM-9R4" firstAttribute="leading" secondItem="Own-dh-knH" secondAttribute="leading" id="d5K-DK-8B8"/>
-                            <constraint firstItem="za2-tl-AUL" firstAttribute="top" secondItem="ZCU-q8-nkJ" secondAttribute="bottom" constant="20" id="eBe-Xo-IJI"/>
+                            <constraint firstItem="za2-tl-AUL" firstAttribute="top" secondItem="ZCU-q8-nkJ" secondAttribute="bottom" constant="30" id="eBe-Xo-IJI"/>
                             <constraint firstItem="7OM-tn-eXr" firstAttribute="top" secondItem="NfE-QN-e9a" secondAttribute="bottom" constant="7" id="hSr-cE-kwd"/>
                             <constraint firstItem="5xk-TM-9R4" firstAttribute="trailing" secondItem="Own-dh-knH" secondAttribute="trailing" id="lbo-XE-4Du"/>
                             <constraint firstItem="7OM-tn-eXr" firstAttribute="trailing" secondItem="P9a-CE-dFV" secondAttribute="trailing" id="nAa-OW-1Sk"/>
@@ -1093,6 +1096,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tWO-V2-85H"/>
+                    <connections>
+                        <outlet property="dateText" destination="Own-dh-knH" id="BE6-a0-fzi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLx-PD-eGI" sceneMemberID="firstResponder"/>
             </objects>

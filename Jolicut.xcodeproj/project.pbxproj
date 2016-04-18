@@ -28,6 +28,7 @@
 		1CF9BA8B1CC513310061C26E /* seConnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8A1CC513310061C26E /* seConnecter.swift */; };
 		1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8C1CC51D860061C26E /* Main.storyboard */; };
 		1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */; };
+		690726DB1CC547EB00585060 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DA1CC547EB00585060 /* DatePicker.swift */; };
 		699545AB1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AC1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AD1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -87,6 +88,7 @@
 		1CF9BA8A1CC513310061C26E /* seConnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seConnecter.swift; sourceTree = "<group>"; };
 		1CF9BA8C1CC51D860061C26E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnecter.swift; sourceTree = "<group>"; };
+		690726DA1CC547EB00585060 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
 				067CFAA41CBE71AD0021618F /* Info.plist */,
+				690726DA1CC547EB00585060 /* DatePicker.swift */,
 			);
 			path = Jolicut;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				1CF9BA8B1CC513310061C26E /* seConnecter.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
+				690726DB1CC547EB00585060 /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
