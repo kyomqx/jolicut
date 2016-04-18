@@ -28,7 +28,7 @@
 		1CF9BA8B1CC513310061C26E /* seConnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8A1CC513310061C26E /* seConnecter.swift */; };
 		1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8C1CC51D860061C26E /* Main.storyboard */; };
 		1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */; };
-		690726DB1CC547EB00585060 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DA1CC547EB00585060 /* DatePicker.swift */; };
+		1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */; };
 		699545AB1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AC1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		699545AD1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -88,7 +88,7 @@
 		1CF9BA8A1CC513310061C26E /* seConnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seConnecter.swift; sourceTree = "<group>"; };
 		1CF9BA8C1CC51D860061C26E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnecter.swift; sourceTree = "<group>"; };
-		690726DA1CC547EB00585060 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black (1).png"; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +183,7 @@
 		067CFADE1CBF89440021618F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */,
 				1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */,
 				1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */,
 				1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */,
@@ -314,6 +315,7 @@
 				699545AF1CBFC6860079C3E5 /* (null) in Resources */,
 				699545AB1CBFC6860079C3E5 /* (null) in Resources */,
 				06CAF7091CBFE65E00BEB7BF /* 3.jpg in Resources */,
+				1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */,
 				06CAF7081CBFE65E00BEB7BF /* 2.jpg in Resources */,
 				699545B61CBFCD4E0079C3E5 /* (null) in Resources */,
 				699545AC1CBFC6860079C3E5 /* (null) in Resources */,
