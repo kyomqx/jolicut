@@ -376,7 +376,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="seConnecter:" destination="PEW-kt-VGX" eventType="touchUpInside" id="htS-ES-Bgw"/>
+                                    <action selector="loginButtonTapped:" destination="PEW-kt-VGX" eventType="touchUpInside" id="kqv-6r-TpA"/>
                                     <segue destination="sig-He-JpM" kind="custom" identifier="linkCtoH" customClass="SWRevealViewControllerSeguePushController" id="dKG-41-xf4"/>
                                 </connections>
                             </button>
@@ -412,8 +412,8 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="monchamp" destination="KEX-2G-xdf" id="AeK-BC-2rd"/>
-                        <outlet property="monchamp2" destination="mq5-bR-icx" id="4Ss-be-zaD"/>
+                        <outlet property="userEmailTextField" destination="KEX-2G-xdf" id="feA-ZI-dah"/>
+                        <outlet property="userPasswordTextField" destination="mq5-bR-icx" id="Npv-Nd-XMx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Lw-cs-TYC" sceneMemberID="firstResponder"/>
@@ -986,7 +986,7 @@
                                     <constraint firstAttribute="height" constant="40" id="C7Q-Z1-P3S"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZCU-q8-nkJ">
                                 <rect key="frame" x="65" y="35" width="190" height="190"/>
@@ -1044,7 +1044,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="RegisterButtonTapped:" destination="Ayy-Hi-58R" eventType="touchUpInside" id="Mu3-8m-BYT"/>
                                     <action selector="registerButtonTapped:" destination="Ayy-Hi-58R" eventType="touchUpInside" id="X1D-xG-6eh"/>
                                 </connections>
                             </button>
@@ -1368,9 +1367,9 @@
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="h2B-ea-m1X"/>
         <segue reference="da6-Vp-kYc"/>
         <segue reference="dKG-41-xf4"/>
-        <segue reference="5Y8-b8-sPr"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>

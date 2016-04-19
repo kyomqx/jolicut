@@ -68,18 +68,19 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         NSUserDefaults.standardUserDefaults().setObject(userPassword, forKey: "userPassword");
         NSUserDefaults.standardUserDefaults().synchronize();
         
-        // Display alert messagewith confirmation
-        var myAlert = UIAlertController(title: "Alert", message: "Inscription réussi. Félicitation!", preferredStyle: UIAlertControllerStyle.Alert);
+        // Display alert message with confirmation
+        var myAlert = UIAlertController(title: "Félicitation", message: "Inscription réussi.", preferredStyle: UIAlertControllerStyle.Alert);
         
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default) { action in
             self.dismissViewControllerAnimated(true, completion: nil)
         }
-        
+        myAlert.addAction(okAction);
+        self.presentViewController(myAlert, animated: true, completion: nil);
     }
 
     func displayMyAlertMessage(userMessage:String)
     {
-        var myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.Alert);
+        var myAlert = UIAlertController(title: "Erreur", message: userMessage, preferredStyle: UIAlertControllerStyle.Alert);
         
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil);
         
