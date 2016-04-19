@@ -29,7 +29,7 @@
 		1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8C1CC51D860061C26E /* Main.storyboard */; };
 		1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */; };
 		1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */; };
-		690726DD1CC5520600585060 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DC1CC5520600585060 /* DatePicker.swift */; };
+		690726DD1CC5520600585060 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DC1CC5520600585060 /* RegisterPage.swift */; };
 		69461A3A1CC64F380056E41A /* searchclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A391CC64F380056E41A /* searchclient.swift */; };
 		69461A3C1CC651390056E41A /* specialcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A3B1CC651390056E41A /* specialcell.swift */; };
 		699545AB1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -92,7 +92,7 @@
 		1CF9BA8C1CC51D860061C26E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnecter.swift; sourceTree = "<group>"; };
 		1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black (1).png"; sourceTree = "<group>"; };
-		690726DC1CC5520600585060 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		690726DC1CC5520600585060 /* RegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 		69461A391CC64F380056E41A /* searchclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchclient.swift; sourceTree = "<group>"; };
 		69461A3B1CC651390056E41A /* specialcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialcell.swift; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
 				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
-				690726DC1CC5520600585060 /* DatePicker.swift */,
+				690726DC1CC5520600585060 /* RegisterPage.swift */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
 				F27C58021CBF8BE900852C8F /* iCarousel.m */,
 				1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */,
@@ -373,7 +373,7 @@
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
 				69461A3A1CC64F380056E41A /* searchclient.swift in Sources */,
-				690726DD1CC5520600585060 /* DatePicker.swift in Sources */,
+				690726DD1CC5520600585060 /* RegisterPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
