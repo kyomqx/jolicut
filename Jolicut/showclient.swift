@@ -1,5 +1,5 @@
 //
-//  searchclient.swift
+//  showclient.swift
 //  Jolicut
 //
 //  Created by Kvin Taing on 19/04/16.
@@ -10,14 +10,14 @@ import Foundation
 import UIKit
 import WebKit
 
-class searchclient: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class showclient: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
     
     @IBAction func refresh(sender: AnyObject) {
         get()
     }
-
+    
     
     var values:NSArray = []
     
@@ -33,7 +33,7 @@ class searchclient: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     
     func get(){
-        let url = NSURL(string: "https://serveur-mqx.c9users.io/selectP.php")
+        let url = NSURL(string: "https://serveur-mqx.c9users.io/selectC.php")
         let data = NSData(contentsOfURL: url!)
         values = try! NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
         tableView.reloadData()
@@ -44,7 +44,7 @@ class searchclient: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! SpecialCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! SpecialCellC
         let maindata = values[indexPath.row]
         cell.nom.text = maindata["Nom"] as? String
         cell.prenom.text = maindata["Prenom"] as? String
