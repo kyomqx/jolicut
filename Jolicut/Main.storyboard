@@ -261,17 +261,22 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="tintColor" red="1" green="0.85882352939999995" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="LANCER LA RECHERCHE "/>
+                                <state key="normal" title="LANCER LA RECHERCHE ">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Y8-WP-Ul4" kind="push" id="K8x-nY-Rsl"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.85882352939999995" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.89019607840000003" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="cyc-Sc-rPa" firstAttribute="centerX" secondItem="fnt-Ne-7z0" secondAttribute="centerX" id="Xc3-8w-Wd6"/>
                             <constraint firstItem="cyc-Sc-rPa" firstAttribute="centerY" secondItem="fnt-Ne-7z0" secondAttribute="centerY" id="Zgw-5p-qkd"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="rcy-mw-SZu">
+                    <navigationItem key="navigationItem" title="Recherche de Coiffeur" id="rcy-mw-SZu">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="Pzk-fm-5uA" userLabel="Menu">
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
@@ -333,7 +338,7 @@
                                     <segue destination="sig-He-JpM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zat-GD-TNG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
                                 <rect key="frame" x="65" y="45" width="190" height="145"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx">
@@ -367,7 +372,9 @@
                                     <constraint firstAttribute="height" constant="40" id="8zd-jl-1aU"/>
                                 </constraints>
                                 <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Connexion"/>
+                                <state key="normal" title="Connexion">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="seConnecter:" destination="PEW-kt-VGX" eventType="touchUpInside" id="htS-ES-Bgw"/>
                                     <segue destination="sig-He-JpM" kind="custom" identifier="linkCtoH" customClass="SWRevealViewControllerSeguePushController" id="dKG-41-xf4"/>
@@ -993,15 +1000,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OM-tn-eXr">
-                                <rect key="frame" x="0.0" y="466" width="320" height="40"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="eW3-AL-Jjx"/>
-                                </constraints>
-                                <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Valider"/>
-                            </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NfE-QN-e9a">
                                 <rect key="frame" x="1" y="431" width="318" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1035,6 +1033,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OM-tn-eXr">
+                                <rect key="frame" x="-1" y="466" width="320" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="eW3-AL-Jjx"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Valider">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.89019607840000003" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1138,6 +1147,113 @@
             </objects>
             <point key="canvasLocation" x="107" y="883"/>
         </scene>
+        <!--Coiffeurs dans les alentours-->
+        <scene sceneID="kUh-CP-72P">
+            <objects>
+                <viewController id="8Y8-WP-Ul4" customClass="searchclient" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8P9-ap-hPh"/>
+                        <viewControllerLayoutGuide type="bottom" id="UDk-od-5go"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uD4-mQ-dPy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNx-5h-rv9">
+                                <rect key="frame" x="226" y="53" width="78" height="34"/>
+                                <state key="normal" title="Rafraichir">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresh:" destination="8Y8-WP-Ul4" eventType="touchUpInside" id="L7H-S4-zLb"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="117" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7wy-qb-Wxv">
+                                <rect key="frame" x="16" y="95" width="288" height="410"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.89019607840000003" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="117" id="rFB-J2-7eU" customClass="SpecialCell" customModule="Jolicut" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="288" height="117"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rFB-J2-7eU" id="bSX-XA-U90">
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="116"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWL-pb-4EN" userLabel="Nom">
+                                                    <rect key="frame" x="8" y="8" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akS-gG-lQh" userLabel="Prenom">
+                                                    <rect key="frame" x="8" y="37" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6D-Td-Mzw" userLabel="Info">
+                                                    <rect key="frame" x="427" y="8" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="iF7-kh-Z5V"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QV2-b9-wKH" userLabel="Sexe">
+                                                    <rect key="frame" x="8" y="66" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="akS-gG-lQh" secondAttribute="bottom" constant="50" id="8ci-XZ-jlb"/>
+                                                <constraint firstItem="QV2-b9-wKH" firstAttribute="leading" secondItem="bSX-XA-U90" secondAttribute="leadingMargin" id="DbJ-65-Ndl"/>
+                                                <constraint firstItem="akS-gG-lQh" firstAttribute="top" secondItem="wWL-pb-4EN" secondAttribute="bottom" constant="8" id="J2v-yX-5EE"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="F6D-Td-Mzw" secondAttribute="bottom" id="KJv-R6-voh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="F6D-Td-Mzw" secondAttribute="trailing" constant="-247" id="OaP-53-3io"/>
+                                                <constraint firstItem="akS-gG-lQh" firstAttribute="leading" secondItem="bSX-XA-U90" secondAttribute="leadingMargin" id="eW5-RA-uoE"/>
+                                                <constraint firstItem="QV2-b9-wKH" firstAttribute="top" secondItem="bSX-XA-U90" secondAttribute="topMargin" constant="58" id="pIM-Sd-0Pj"/>
+                                                <constraint firstItem="F6D-Td-Mzw" firstAttribute="top" secondItem="bSX-XA-U90" secondAttribute="topMargin" id="qL4-Nc-1Je"/>
+                                                <constraint firstItem="wWL-pb-4EN" firstAttribute="leading" secondItem="bSX-XA-U90" secondAttribute="leadingMargin" id="rnW-kA-0Bl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="info" destination="F6D-Td-Mzw" id="EFG-bk-YfQ"/>
+                                            <outlet property="nom" destination="wWL-pb-4EN" id="O1Y-pd-XOn"/>
+                                            <outlet property="prenom" destination="akS-gG-lQh" id="jER-24-M6D"/>
+                                            <outlet property="sexe" destination="QV2-b9-wKH" id="Vqs-mw-YaM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="8Y8-WP-Ul4" id="UCN-fo-BbP"/>
+                                    <outlet property="delegate" destination="8Y8-WP-Ul4" id="yqp-v1-Ldi"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.89019607840000003" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NNx-5h-rv9" firstAttribute="trailing" secondItem="7wy-qb-Wxv" secondAttribute="trailing" id="6C6-PT-dbb"/>
+                            <constraint firstItem="UDk-od-5go" firstAttribute="top" secondItem="7wy-qb-Wxv" secondAttribute="bottom" constant="63" id="Q7z-ab-r6V"/>
+                            <constraint firstItem="NNx-5h-rv9" firstAttribute="trailing" secondItem="uD4-mQ-dPy" secondAttribute="trailingMargin" id="RKr-2S-cf0"/>
+                            <constraint firstItem="7wy-qb-Wxv" firstAttribute="leading" secondItem="uD4-mQ-dPy" secondAttribute="leadingMargin" id="TZO-RL-HcL"/>
+                            <constraint firstItem="NNx-5h-rv9" firstAttribute="top" secondItem="8P9-ap-hPh" secondAttribute="bottom" constant="33" id="UE9-GG-aY0"/>
+                            <constraint firstItem="7wy-qb-Wxv" firstAttribute="top" secondItem="NNx-5h-rv9" secondAttribute="bottom" constant="8" symbolic="YES" id="blU-yG-2Fm"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="View" id="IDD-cq-BIx"/>
+                    <navigationItem key="navigationItem" title="Coiffeurs dans les alentours" id="XFv-lX-L3b"/>
+                    <connections>
+                        <outlet property="tableView" destination="7wy-qb-Wxv" id="ohu-QM-qPD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XaX-LI-DIU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="1575"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo_JoliCut.png" width="1795" height="1796"/>
@@ -1145,8 +1261,9 @@
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Y8-b8-sPr"/>
+        <segue reference="h2B-ea-m1X"/>
         <segue reference="vfj-dm-c7h"/>
         <segue reference="dKG-41-xf4"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>
