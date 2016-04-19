@@ -15,9 +15,8 @@ class searchclient: UIViewController, UITableViewDelegate, UITableViewDataSource
     @IBOutlet var tableView: UITableView!
     
     @IBAction func refresh(sender: AnyObject) {
-        get()
+        get();
     }
-
     
     var values:NSArray = []
     
@@ -30,7 +29,6 @@ class searchclient: UIViewController, UITableViewDelegate, UITableViewDataSource
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     func get(){
         let url = NSURL(string: "https://serveur-mqx.c9users.io/selectP.php")
