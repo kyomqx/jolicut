@@ -8,7 +8,7 @@
 
 import UIKit
 
-class seConnecter: UIViewController {
+class LoginViewController: UIViewController {
     
     
     @IBOutlet var monchamp: UITextField!
