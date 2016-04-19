@@ -25,11 +25,11 @@
 		1CD48C791CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */; };
 		1CD48C7B1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */; };
 		1CD48C7F1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */; };
-		1CF9BA8B1CC513310061C26E /* seConnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8A1CC513310061C26E /* seConnecter.swift */; };
+		1CF9BA8B1CC513310061C26E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8A1CC513310061C26E /* LoginViewController.swift */; };
 		1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8C1CC51D860061C26E /* Main.storyboard */; };
 		1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */; };
 		1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */; };
-		690726DD1CC5520600585060 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DC1CC5520600585060 /* RegisterPage.swift */; };
+		690726DD1CC5520600585060 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DC1CC5520600585060 /* RegisterViewController.swift */; };
 		69461A3A1CC64F380056E41A /* searchclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A391CC64F380056E41A /* searchclient.swift */; };
 		69461A3C1CC651390056E41A /* specialcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A3B1CC651390056E41A /* specialcell.swift */; };
 		699545AB1CBFC6860079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -88,11 +88,11 @@
 		1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black.png"; sourceTree = "<group>"; };
 		1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecLogo_JoliCutNOB.png; sourceTree = "<group>"; };
-		1CF9BA8A1CC513310061C26E /* seConnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seConnecter.swift; sourceTree = "<group>"; };
+		1CF9BA8A1CC513310061C26E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CF9BA8C1CC51D860061C26E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnecter.swift; sourceTree = "<group>"; };
 		1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black (1).png"; sourceTree = "<group>"; };
-		690726DC1CC5520600585060 /* RegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		690726DC1CC5520600585060 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		69461A391CC64F380056E41A /* searchclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchclient.swift; sourceTree = "<group>"; };
 		69461A3B1CC651390056E41A /* specialcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialcell.swift; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		067CFA971CBE71AD0021618F /* Jolicut */ = {
 			isa = PBXGroup;
 			children = (
-				1CF9BA8A1CC513310061C26E /* seConnecter.swift */,
+				1CF9BA8A1CC513310061C26E /* LoginViewController.swift */,
 				067CFAF91CBFB1410021618F /* SWRevealViewController.h */,
 				067CFAFA1CBFB1410021618F /* SWRevealViewController.m */,
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
@@ -157,7 +157,7 @@
 				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
 				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
-				690726DC1CC5520600585060 /* RegisterPage.swift */,
+				690726DC1CC5520600585060 /* RegisterViewController.swift */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
 				F27C58021CBF8BE900852C8F /* iCarousel.m */,
 				1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */,
@@ -369,11 +369,11 @@
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
-				1CF9BA8B1CC513310061C26E /* seConnecter.swift in Sources */,
+				1CF9BA8B1CC513310061C26E /* LoginViewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
 				69461A3A1CC64F380056E41A /* searchclient.swift in Sources */,
-				690726DD1CC5520600585060 /* RegisterPage.swift in Sources */,
+				690726DD1CC5520600585060 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
