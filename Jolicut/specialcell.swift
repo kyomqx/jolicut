@@ -14,6 +14,7 @@ class SpecialCell: UITableViewCell {
 
     @IBOutlet var prenom: UILabel!
     
+    @IBOutlet var note: UILabel!
     @IBOutlet var info: UILabel!
     @IBOutlet var sexe: UILabel!
     override func awakeFromNib() {
