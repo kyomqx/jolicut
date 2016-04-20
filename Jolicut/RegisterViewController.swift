@@ -13,7 +13,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var userEmailTextField: UITextField!
     @IBOutlet weak var userIdTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
-    
+
     func textFieldDidBeginEditing(textField: UITextField) {
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = UIDatePickerMode.Date
@@ -24,7 +24,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     func datePickerChanged(sender : UIDatePicker) {
         let formatter = NSDateFormatter()
         formatter.dateStyle = .MediumStyle
-        dateText.text = formatter.stringFromDate(sender.date)
+        dateTextField.text = formatter.stringFromDate(sender.date)
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -32,7 +32,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    @IBOutlet weak var dateText: UITextField!
+    @IBOutlet weak var dateTextField: UITextField!
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
@@ -41,7 +41,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dateText.delegate = self
+        dateTextField.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -54,7 +54,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         let userEmail = userEmailTextField.text;
         let userPassword = userPasswordTextField.text;
         let userId = userIdTextField.text;
-        let userBirth = dateText.text;
+        let userBirth = dateTextField.text;
         
         
         // Check for empty fields
@@ -70,10 +70,13 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         // Send user data to server side
         let myUrl = NSURL(string:"https://serveur-mqx.c9users.io/userRegister.php");
         let request = NSMutableURLRequest(URL:myUrl!);
+        
+        var postString = "Email=" + userEmail!;
+        postString += "&Identifiant=" + userId!;
+        postString += "&Mdp=" + userPassword!;
+        postString += "&Date_de_naissance=" + userBirth!;
+        
         request.HTTPMethod = "POST";
-        
-        let postString = "Email=\(userEmail)&Identifiant=\(userId)&Mdp=\(userPassword)&Date_de_naissance=\(userBirth)";
-        
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding);
         
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request){
@@ -108,7 +111,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 dispatch_async(dispatch_get_main_queue(), {
                 
                     // Display alert message with confirmation
-                    let myAlert = UIAlertController(title:"Alert", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
+                    let myAlert = UIAlertController(title:"Erreur", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
                     
                     let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default){action in
                         self.dismissViewControllerAnimated(true, completion: nil);

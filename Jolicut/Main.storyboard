@@ -112,7 +112,7 @@
         <!--slidebar-->
         <scene sceneID="DgK-2D-VSz">
             <objects>
-                <tableViewController title="slidebar" id="apf-Tm-r0C" customClass="deco" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="slidebar" id="apf-Tm-r0C" customClass="Deconnexion" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jS9-Aj-nDD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,15 +217,12 @@
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="loggoutButtonTapped:" destination="apf-Tm-r0C" eventType="touchUpInside" id="ndn-4Z-pGz"/>
+                                                        <action selector="loggoutButtonTapped:" destination="apf-Tm-r0C" eventType="touchUpInside" id="ULx-d8-GdL"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.99215686270000003" green="0.8862745098" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="f1z-c8-402" kind="custom" identifier="loginView" customClass="SWRevealViewControllerSeguePushController" id="leh-M9-Uef"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -235,6 +232,9 @@
                             <outlet property="delegate" destination="apf-Tm-r0C" id="aYZ-zg-Juz"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="linkHtoC" customClass="SWRevealViewControllerSeguePushController" id="3cJ-w1-yR4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tam-Gj-8R3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,14 +331,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Mot de passe oublié ?"/>
-                                <connections>
-                                    <segue destination="sig-He-JpM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zat-GD-TNG"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
                                 <rect key="frame" x="65" y="45" width="190" height="145"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx" userLabel="userPasswordTextField">
                                 <rect key="frame" x="0.0" y="291" width="320" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -350,7 +347,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="246" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nom d'utilisateur" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEX-2G-xdf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="246" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nom d'utilisateur" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEX-2G-xdf" userLabel="userIdTextField">
                                 <rect key="frame" x="0.0" y="250" width="320" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -373,8 +370,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginButtonTapped:" destination="PEW-kt-VGX" eventType="touchUpInside" id="kqv-6r-TpA"/>
-                                    <segue destination="sig-He-JpM" kind="custom" identifier="linkCtoH" customClass="SWRevealViewControllerSeguePushController" id="dKG-41-xf4"/>
+                                    <action selector="logginButtonTapped:" destination="PEW-kt-VGX" eventType="touchUpInside" id="XDc-uz-83W"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -409,8 +405,9 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="userEmailTextField" destination="KEX-2G-xdf" id="feA-ZI-dah"/>
-                        <outlet property="userPasswordTextField" destination="mq5-bR-icx" id="Npv-Nd-XMx"/>
+                        <outlet property="userIdTextField" destination="KEX-2G-xdf" id="OT6-f4-WLn"/>
+                        <outlet property="userPasswordTextField" destination="mq5-bR-icx" id="Q56-ar-3Bw"/>
+                        <segue destination="sig-He-JpM" kind="custom" identifier="linkCtoH" customClass="SWRevealViewControllerSeguePushController" id="nJr-n8-Tia"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Lw-cs-TYC" sceneMemberID="firstResponder"/>
@@ -781,6 +778,9 @@
                                     <segment title="Coiffeur"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="CorC:" destination="Ayy-Hi-58R" eventType="valueChanged" id="xhJ-gx-zeT"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OM-tn-eXr">
                                 <rect key="frame" x="-1" y="466" width="320" height="40"/>
@@ -847,7 +847,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="dateText" destination="Own-dh-knH" id="BE6-a0-fzi"/>
+                        <outlet property="dateTextField" destination="Own-dh-knH" id="Xe0-aG-NTq"/>
                         <outlet property="userEmailTextField" destination="Rm3-6a-bAG" id="5Pk-z9-pk4"/>
                         <outlet property="userIdTextField" destination="7oo-ls-Zip" id="gJ9-H7-HxA"/>
                         <outlet property="userPasswordTextField" destination="5xk-TM-9R4" id="Ing-iS-oMI"/>
@@ -1522,8 +1522,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5Y8-b8-sPr"/>
-        <segue reference="dKG-41-xf4"/>
-        <segue reference="leh-M9-Uef"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>
