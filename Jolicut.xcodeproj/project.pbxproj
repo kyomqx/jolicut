@@ -50,6 +50,9 @@
 		69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */; };
 		F20C293F1CC7C418005D3D1D /* portable.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C293D1CC7C418005D3D1D /* portable.png */; };
 		F20C29401CC7C418005D3D1D /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C293E1CC7C418005D3D1D /* sky.png */; };
+		F23E1DFE1CC7D1F6008CC6B5 /* teteronde.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23E1DFD1CC7D1F6008CC6B5 /* teteronde.swift */; };
+		F23E1E001CC7D589008CC6B5 /* profilclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23E1DFF1CC7D589008CC6B5 /* profilclient.swift */; };
+		F23E1E021CC7D5C0008CC6B5 /* specialprofilclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23E1E011CC7D5C0008CC6B5 /* specialprofilclient.swift */; };
 		F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F27C58021CBF8BE900852C8F /* iCarousel.m */; };
 		F27FC8C01CC7704F0037CA7F /* portrait DMC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8BF1CC7704F0037CA7F /* portrait DMC.jpg */; };
 		F27FC8CD1CC7B45C0037CA7F /* skype.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8CB1CC7B45C0037CA7F /* skype.jpeg */; };
@@ -116,6 +119,9 @@
 		69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
 		F20C293D1CC7C418005D3D1D /* portable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portable.png; sourceTree = "<group>"; };
 		F20C293E1CC7C418005D3D1D /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		F23E1DFD1CC7D1F6008CC6B5 /* teteronde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teteronde.swift; sourceTree = "<group>"; };
+		F23E1DFF1CC7D589008CC6B5 /* profilclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profilclient.swift; sourceTree = "<group>"; };
+		F23E1E011CC7D5C0008CC6B5 /* specialprofilclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialprofilclient.swift; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		F27FC8BF1CC7704F0037CA7F /* portrait DMC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "portrait DMC.jpg"; sourceTree = "<group>"; };
@@ -194,6 +200,9 @@
 				69A46A971CC69290002F39B4 /* SpecialFacture.swift */,
 				69A46A991CC69679002F39B4 /* showclient.swift */,
 				69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */,
+				F23E1DFD1CC7D1F6008CC6B5 /* teteronde.swift */,
+				F23E1DFF1CC7D589008CC6B5 /* profilclient.swift */,
+				F23E1E011CC7D5C0008CC6B5 /* specialprofilclient.swift */,
 				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
@@ -406,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23E1E021CC7D5C0008CC6B5 /* specialprofilclient.swift in Sources */,
 				1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */,
 				69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */,
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
@@ -420,8 +430,10 @@
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
 				69461A3A1CC64F380056E41A /* searchclient.swift in Sources */,
 				69A46AA41CC69FEF002F39B4 /* MGSwipeButton.m in Sources */,
+				F23E1E001CC7D589008CC6B5 /* profilclient.swift in Sources */,
 				69A46A981CC69290002F39B4 /* SpecialFacture.swift in Sources */,
 				690726DD1CC5520600585060 /* RegisterViewController.swift in Sources */,
+				F23E1DFE1CC7D1F6008CC6B5 /* teteronde.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
