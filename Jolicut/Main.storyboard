@@ -52,7 +52,7 @@
                                     <segue destination="Xbx-GG-W4Z" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1xX-k8-2jY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCutNOB (2)" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RecLogo_JoliCutNOB (2)" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-vW-dvq">
                                 <rect key="frame" x="50" y="35" width="220" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="1eC-Oz-ZgG"/>
@@ -338,7 +338,7 @@
                                     <segue destination="sig-He-JpM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zat-GD-TNG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQu-rq-pKG">
                                 <rect key="frame" x="65" y="45" width="190" height="145"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mot de passe" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mq5-bR-icx">
@@ -1091,6 +1091,7 @@
                     <connections>
                         <outlet property="dateText" destination="Own-dh-knH" id="BE6-a0-fzi"/>
                         <outlet property="userEmailTextField" destination="Rm3-6a-bAG" id="5Pk-z9-pk4"/>
+                        <outlet property="userIdTextField" destination="7oo-ls-Zip" id="gJ9-H7-HxA"/>
                         <outlet property="userPasswordTextField" destination="5xk-TM-9R4" id="Ing-iS-oMI"/>
                     </connections>
                 </viewController>
@@ -1278,7 +1279,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hh-ft-IWY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hh-ft-IWY">
                                 <rect key="frame" x="226" y="53" width="78" height="34"/>
                                 <state key="normal" title="Rafraichir">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1287,7 +1288,7 @@
                                     <action selector="refresh:" destination="0LA-vO-aUr" eventType="touchUpInside" id="K9j-Fp-NPq"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="117" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uXl-Py-0tx">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="117" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uXl-Py-0tx">
                                 <rect key="frame" x="16" y="95" width="288" height="410"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.89019607840000003" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
