@@ -11,6 +11,7 @@ import UIKit
 class RegisterViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var userEmailTextField: UITextField!
+    @IBOutlet weak var userIdTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
     
     func textFieldDidBeginEditing(textField: UITextField) {
@@ -52,9 +53,12 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         
         let userEmail = userEmailTextField.text;
         let userPassword = userPasswordTextField.text;
+        let userId = userIdTextField.text;
+        let userBirth = dateText.text;
+        
         
         // Check for empty fields
-        if (userEmail!.isEmpty || userPassword!.isEmpty)
+        if (userEmail!.isEmpty || userPassword!.isEmpty || userId!.isEmpty || userBirth!.isEmpty)
         {
             
             // Display alert message
@@ -68,7 +72,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         let request = NSMutableURLRequest(URL:myUrl!);
         request.HTTPMethod = "POST";
         
-        let postString = "Email=\(userEmail)&Mdp=\(userPassword)";
+        let postString = "Email=\(userEmail)&Identifiant=\(userId)&Mdp=\(userPassword)&Date_de_naissance=\(userBirth)";
         
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding);
         
