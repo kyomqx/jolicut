@@ -80,42 +80,48 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 return
             }
             
-            var err: NSError?
-            var json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: &err) as? NSDictionary
+            print("response=\(error)")
             
-            if let parseJSON = json {
-                var resultValue = parseJSON["status"] as? String
-                print("result=\(resultValue)")
-                
-                var isUserRegistered:Bool = false;
-                if(resultValue=="Success")  {   isUserRegistered = true;    }
-                
-                var messageToDisplay:String = parseJSON["message"] as String!;
-                if(!isUserRegistered)
-                {
-                    messageToDisplay = parseJSON["message"] as String!;
-                }
-                
-                dispatch_async(dispatch_get_main_queue(), {
-                
-                    // Display alert message with confirmation
-                    var myAlert = UIAlertController(title:"Alert", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
-                    
-                    let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default){action in
-                        self.dismissViewControllerAnimated(true, completion: nil);
-                    }
-                    
-                    myAlert.addAction(okAction);
-                    self.presentViewController(myAlert, animated: true, completion: nil);
-                
-                });
+            let responseString=NSString(data: data!, encoding: NSUTF8StringEncoding)
+            print("responseString=\(responseString)")
+            
+//            var err: NSError?
+//            var json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: &err) as? NSDictionary
+//            
+//            if let parseJSON = json {
+//                var resultValue = parseJSON["status"] as? String
+//                print("result=\(resultValue)")
+//                
+//                var isUserRegistered:Bool = false;
+//                if(resultValue=="Success")  {   isUserRegistered = true;    }
+//                
+//                var messageToDisplay:String = parseJSON["message"] as String!;
+//                if(!isUserRegistered)
+//                {
+//                    messageToDisplay = parseJSON["message"] as String!;
+//                }
+//                
+//                dispatch_async(dispatch_get_main_queue(), {
+//                
+//                    // Display alert message with confirmation
+//                    var myAlert = UIAlertController(title:"Alert", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
+//                    
+//                    let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default){action in
+//                        self.dismissViewControllerAnimated(true, completion: nil);
+//                    }
+//                    
+//                    myAlert.addAction(okAction);
+//                    self.presentViewController(myAlert, animated: true, completion: nil);
+//                
+//                });
             }
+        task.resume()
         }
         
-        task.resume()
+//        task.resume()
     
     
-    }
+//    }
 
     func displayMyAlertMessage(userMessage:String)
     {
