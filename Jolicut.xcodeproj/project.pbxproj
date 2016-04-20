@@ -44,6 +44,10 @@
 		699545B81CBFCF390079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		69A46A961CC6917C002F39B4 /* facture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A951CC6917C002F39B4 /* facture.swift */; };
 		69A46A981CC69290002F39B4 /* SpecialFacture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A971CC69290002F39B4 /* SpecialFacture.swift */; };
+		69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A991CC69679002F39B4 /* showclient.swift */; };
+		69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */; };
+		69A46AA41CC69FEF002F39B4 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */; };
+		69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */; };
 		F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F27C58021CBF8BE900852C8F /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +103,12 @@
 		69461A3B1CC651390056E41A /* specialcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialcell.swift; sourceTree = "<group>"; };
 		69A46A951CC6917C002F39B4 /* facture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facture.swift; sourceTree = "<group>"; };
 		69A46A971CC69290002F39B4 /* SpecialFacture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialFacture.swift; sourceTree = "<group>"; };
+		69A46A991CC69679002F39B4 /* showclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showclient.swift; sourceTree = "<group>"; };
+		69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialClient.swift; sourceTree = "<group>"; };
+		69A46AA21CC69F73002F39B4 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		69A46AA51CC6A01C002F39B4 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,25 +163,31 @@
 		067CFA971CBE71AD0021618F /* Jolicut */ = {
 			isa = PBXGroup;
 			children = (
-				1CF9BA8A1CC513310061C26E /* LoginViewController.swift */,
 				067CFAF91CBFB1410021618F /* SWRevealViewController.h */,
 				067CFAFA1CBFB1410021618F /* SWRevealViewController.m */,
-				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
-				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
-				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
-				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
-				067CFADC1CBF85130021618F /* Launch.storyboard */,
-				690726DC1CC5520600585060 /* RegisterViewController.swift */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
 				F27C58021CBF8BE900852C8F /* iCarousel.m */,
-				1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */,
+				69A46AA21CC69F73002F39B4 /* MGSwipeButton.h */,
+				69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */,
+				69A46AA51CC6A01C002F39B4 /* MGSwipeTableCell.h */,
+				69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
-				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
-				067CFAA41CBE71AD0021618F /* Info.plist */,
+				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
+				1CF9BA8A1CC513310061C26E /* LoginViewController.swift */,
+				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
+				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
+				690726DC1CC5520600585060 /* RegisterViewController.swift */,
+				1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */,
 				69461A391CC64F380056E41A /* searchclient.swift */,
 				69461A3B1CC651390056E41A /* specialcell.swift */,
 				69A46A951CC6917C002F39B4 /* facture.swift */,
 				69A46A971CC69290002F39B4 /* SpecialFacture.swift */,
+				69A46A991CC69679002F39B4 /* showclient.swift */,
+				69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */,
+				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
+				067CFADC1CBF85130021618F /* Launch.storyboard */,
+				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
+				067CFAA41CBE71AD0021618F /* Info.plist */,
 			);
 			path = Jolicut;
 			sourceTree = "<group>";
@@ -371,15 +387,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */,
+				69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */,
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
+				69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */,
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
 				1CF9BA8B1CC513310061C26E /* LoginViewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
+				69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */,
 				69A46A961CC6917C002F39B4 /* facture.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
 				69461A3A1CC64F380056E41A /* searchclient.swift in Sources */,
+				69A46AA41CC69FEF002F39B4 /* MGSwipeButton.m in Sources */,
 				69A46A981CC69290002F39B4 /* SpecialFacture.swift in Sources */,
 				690726DD1CC5520600585060 /* RegisterViewController.swift in Sources */,
 			);
