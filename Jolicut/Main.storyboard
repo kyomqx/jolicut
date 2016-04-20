@@ -1059,6 +1059,9 @@
                                     <segment title="Coiffeur"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="CorC:" destination="Ayy-Hi-58R" eventType="valueChanged" id="xhJ-gx-zeT"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OM-tn-eXr">
                                 <rect key="frame" x="-1" y="466" width="320" height="40"/>
@@ -1125,7 +1128,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="dateText" destination="Own-dh-knH" id="BE6-a0-fzi"/>
+                        <outlet property="dateTextField" destination="Own-dh-knH" id="Xe0-aG-NTq"/>
                         <outlet property="userEmailTextField" destination="Rm3-6a-bAG" id="5Pk-z9-pk4"/>
                         <outlet property="userIdTextField" destination="7oo-ls-Zip" id="gJ9-H7-HxA"/>
                         <outlet property="userPasswordTextField" destination="5xk-TM-9R4" id="Ing-iS-oMI"/>
@@ -1446,7 +1449,7 @@
         <image name="portrait DMC.jpg" width="359" height="359"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="h2B-ea-m1X"/>
+        <segue reference="5Y8-b8-sPr"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>
