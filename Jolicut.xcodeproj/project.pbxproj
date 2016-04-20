@@ -50,6 +50,8 @@
 		69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */; };
 		F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F27C58021CBF8BE900852C8F /* iCarousel.m */; };
 		F27FC8C01CC7704F0037CA7F /* portrait DMC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8BF1CC7704F0037CA7F /* portrait DMC.jpg */; };
+		F27FC8CD1CC7B45C0037CA7F /* skype.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8CB1CC7B45C0037CA7F /* skype.jpeg */; };
+		F27FC8CE1CC7B45C0037CA7F /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8CC1CC7B45C0037CA7F /* telephone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		F27C58011CBF8BDE00852C8F /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F27C58021CBF8BE900852C8F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		F27FC8BF1CC7704F0037CA7F /* portrait DMC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "portrait DMC.jpg"; sourceTree = "<group>"; };
+		F27FC8CB1CC7B45C0037CA7F /* skype.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skype.jpeg; sourceTree = "<group>"; };
+		F27FC8CC1CC7B45C0037CA7F /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telephone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,8 @@
 				1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */,
 				06CAF7031CBFE63900BEB7BF /* 1.jpg */,
 				06CAF7051CBFE65E00BEB7BF /* 2.jpg */,
+				F27FC8CB1CC7B45C0037CA7F /* skype.jpeg */,
+				F27FC8CC1CC7B45C0037CA7F /* telephone.png */,
 				06CAF7061CBFE65E00BEB7BF /* 3.jpg */,
 				06CAF7071CBFE65E00BEB7BF /* User_Icon.png */,
 			);
@@ -341,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27FC8CD1CC7B45C0037CA7F /* skype.jpeg in Resources */,
 				699545B41CBFCBEF0079C3E5 /* (null) in Resources */,
 				699545AE1CBFC6860079C3E5 /* (null) in Resources */,
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
@@ -349,6 +356,7 @@
 				699545AB1CBFC6860079C3E5 /* (null) in Resources */,
 				06CAF7091CBFE65E00BEB7BF /* 3.jpg in Resources */,
 				1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */,
+				F27FC8CE1CC7B45C0037CA7F /* telephone.png in Resources */,
 				06CAF7081CBFE65E00BEB7BF /* 2.jpg in Resources */,
 				699545B61CBFCD4E0079C3E5 /* (null) in Resources */,
 				699545AC1CBFC6860079C3E5 /* (null) in Resources */,

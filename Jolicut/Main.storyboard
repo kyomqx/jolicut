@@ -1492,23 +1492,11 @@
                                     <constraint firstAttribute="height" constant="49" id="Nlq-QH-VKz"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skype.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fHR-5a-SuN">
-                                <rect key="frame" x="102" y="324" width="26" height="23"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layrer.cornerRadius">
-                                        <integer key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layrer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCh-7k-1RS">
+                                <rect key="frame" x="6" y="273" width="67" height="52"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telephone.png" translatesAutoresizingMaskIntoConstraints="NO" id="WWX-fL-yDW">
-                                <rect key="frame" x="98" y="380" width="26" height="25"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layrer.cornerRadius">
-                                        <integer key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layrer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJh-TA-uPL">
+                                <rect key="frame" x="6" y="333" width="67" height="52"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -1518,21 +1506,13 @@
                             <constraint firstItem="h1p-0I-Jdr" firstAttribute="top" secondItem="882-Vm-Lb6" secondAttribute="bottom" constant="31" id="EqA-LH-A0q"/>
                             <constraint firstItem="NNx-w5-euc" firstAttribute="top" secondItem="kuE-pi-egh" secondAttribute="bottom" constant="8" symbolic="YES" id="FnW-gg-kCf"/>
                             <constraint firstItem="NNx-w5-euc" firstAttribute="centerX" secondItem="zoR-dq-18j" secondAttribute="centerX" id="HOu-mn-cuL"/>
-                            <constraint firstItem="9P4-6E-4Qh" firstAttribute="leading" secondItem="WWX-fL-yDW" secondAttribute="trailing" constant="6" id="IJN-W1-ykY"/>
-                            <constraint firstItem="zoR-dq-18j" firstAttribute="leading" secondItem="fHR-5a-SuN" secondAttribute="trailing" constant="8" symbolic="YES" id="La9-FK-xHb"/>
-                            <constraint firstItem="WWX-fL-yDW" firstAttribute="top" secondItem="r8n-DE-wAO" secondAttribute="bottom" constant="4" id="N1B-nY-yiu"/>
                             <constraint firstItem="kuE-pi-egh" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="70" id="P3f-aG-nv1"/>
-                            <constraint firstItem="fHR-5a-SuN" firstAttribute="centerY" secondItem="zoR-dq-18j" secondAttribute="centerY" id="TO8-AX-bVi"/>
                             <constraint firstItem="FYo-z4-UY4" firstAttribute="top" secondItem="Fz8-fO-DKo" secondAttribute="bottom" constant="134" id="UC4-yU-HKe"/>
-                            <constraint firstItem="Fz8-fO-DKo" firstAttribute="top" secondItem="WWX-fL-yDW" secondAttribute="bottom" constant="8" symbolic="YES" id="Udx-Vm-YgN"/>
                             <constraint firstItem="kuE-pi-egh" firstAttribute="centerX" secondItem="NNx-w5-euc" secondAttribute="centerX" id="WUp-La-6tU"/>
                             <constraint firstItem="h1p-0I-Jdr" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="37" id="Ynh-1J-RiY"/>
                             <constraint firstItem="zoR-dq-18j" firstAttribute="top" secondItem="NNx-w5-euc" secondAttribute="bottom" constant="50" id="a6g-Xi-22r"/>
-                            <constraint firstItem="fHR-5a-SuN" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="86" id="aJ0-Gw-A1P"/>
                             <constraint firstItem="Fz8-fO-DKo" firstAttribute="top" secondItem="9P4-6E-4Qh" secondAttribute="bottom" constant="8" symbolic="YES" id="bgW-Kd-tNs"/>
                             <constraint firstItem="9P4-6E-4Qh" firstAttribute="centerX" secondItem="Fz8-fO-DKo" secondAttribute="centerX" id="gRM-nh-rZn"/>
-                            <constraint firstItem="WWX-fL-yDW" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="82" id="gjV-wL-hve"/>
-                            <constraint firstItem="r8n-DE-wAO" firstAttribute="top" secondItem="fHR-5a-SuN" secondAttribute="bottom" constant="6" id="hX0-f1-OFU"/>
                             <constraint firstItem="h1p-0I-Jdr" firstAttribute="centerX" secondItem="eKV-xT-Ecd" secondAttribute="centerX" id="jjs-Pq-JRG"/>
                             <constraint firstItem="kuE-pi-egh" firstAttribute="top" secondItem="h1p-0I-Jdr" secondAttribute="bottom" constant="56" id="k9P-ED-JzE"/>
                             <constraint firstItem="zoR-dq-18j" firstAttribute="centerX" secondItem="r8n-DE-wAO" secondAttribute="centerX" id="mAN-M1-hPd"/>
@@ -1551,8 +1531,6 @@
         <image name="RecLogo_JoliCut NOB_Black (1).png" width="677" height="175"/>
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
         <image name="portrait DMC.jpg" width="359" height="359"/>
-        <image name="skype.jpeg" width="75" height="75"/>
-        <image name="telephone.png" width="75" height="75"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5Y8-b8-sPr"/>
