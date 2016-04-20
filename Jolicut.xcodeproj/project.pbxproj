@@ -19,15 +19,15 @@
 		06CAF7081CBFE65E00BEB7BF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7051CBFE65E00BEB7BF /* 2.jpg */; };
 		06CAF7091CBFE65E00BEB7BF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7061CBFE65E00BEB7BF /* 3.jpg */; };
 		06CAF70A1CBFE65E00BEB7BF /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7071CBFE65E00BEB7BF /* User_Icon.png */; };
+		1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */; };
+		1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */; };
 		1CD48C731CBFDA6400EDFB6A /* (null) in Resources */ = {isa = PBXBuildFile; };
 		1CD48C771CBFE8BF00EDFB6A /* Logo_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */; };
 		1CD48C781CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */; };
 		1CD48C791CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */; };
 		1CD48C7B1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */; };
 		1CD48C7F1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */; };
-		1CF9BA8B1CC513310061C26E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8A1CC513310061C26E /* LoginViewController.swift */; };
 		1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8C1CC51D860061C26E /* Main.storyboard */; };
-		1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */; };
 		1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */; };
 		690726DD1CC5520600585060 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DC1CC5520600585060 /* RegisterViewController.swift */; };
 		69461A3A1CC64F380056E41A /* searchclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A391CC64F380056E41A /* searchclient.swift */; };
@@ -94,14 +94,14 @@
 		06CAF7051CBFE65E00BEB7BF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		06CAF7061CBFE65E00BEB7BF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		06CAF7071CBFE65E00BEB7BF /* User_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User_Icon.png; sourceTree = "<group>"; };
+		1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnexion.swift; sourceTree = "<group>"; };
 		1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C7A1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black.png"; sourceTree = "<group>"; };
 		1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecLogo_JoliCutNOB.png; sourceTree = "<group>"; };
-		1CF9BA8A1CC513310061C26E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CF9BA8C1CC51D860061C26E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnecter.swift; sourceTree = "<group>"; };
 		1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black (1).png"; sourceTree = "<group>"; };
 		690726DC1CC5520600585060 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		69461A391CC64F380056E41A /* searchclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchclient.swift; sourceTree = "<group>"; };
@@ -183,17 +183,17 @@
 				69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
-				1CF9BA8A1CC513310061C26E /* LoginViewController.swift */,
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
 				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
-				690726DC1CC5520600585060 /* RegisterViewController.swift */,
-				1CF9BA8E1CC5230E0061C26E /* Deconnecter.swift */,
 				69461A391CC64F380056E41A /* searchclient.swift */,
 				69461A3B1CC651390056E41A /* specialcell.swift */,
 				69A46A951CC6917C002F39B4 /* facture.swift */,
 				69A46A971CC69290002F39B4 /* SpecialFacture.swift */,
 				69A46A991CC69679002F39B4 /* showclient.swift */,
 				69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */,
+				1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */,
+				690726DC1CC5520600585060 /* RegisterViewController.swift */,
+				1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */,
 				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
@@ -406,14 +406,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF9BA8F1CC5230E0061C26E /* Deconnecter.swift in Sources */,
 				69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */,
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
+				1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */,
 				69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */,
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
+				1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
-				1CF9BA8B1CC513310061C26E /* LoginViewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */,
 				69A46A961CC6917C002F39B4 /* facture.swift in Sources */,
