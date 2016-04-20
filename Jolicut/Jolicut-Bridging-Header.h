@@ -4,3 +4,5 @@
 
 #import "SWRevealViewController.h"
 #import "iCarousel.h"
+#import "MGSwipeButton.h"
+#import "MGSwipeTableCell.h"
