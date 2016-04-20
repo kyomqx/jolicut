@@ -217,12 +217,15 @@
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="deco:" destination="apf-Tm-r0C" eventType="touchUpInside" id="3wf-c6-FFg"/>
+                                                        <action selector="loggoutButtonTapped:" destination="apf-Tm-r0C" eventType="touchUpInside" id="ndn-4Z-pGz"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.99215686270000003" green="0.8862745098" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="f1z-c8-402" kind="custom" identifier="loginView" customClass="SWRevealViewControllerSeguePushController" id="leh-M9-Uef"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -232,9 +235,6 @@
                             <outlet property="delegate" destination="apf-Tm-r0C" id="aYZ-zg-Juz"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <segue destination="PEW-kt-VGX" kind="custom" identifier="linkHtoC" customClass="SWRevealViewControllerSeguePushController" id="da6-Vp-kYc"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tam-Gj-8R3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1468,9 +1468,9 @@
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="h2B-ea-m1X"/>
-        <segue reference="da6-Vp-kYc"/>
+        <segue reference="5Y8-b8-sPr"/>
         <segue reference="dKG-41-xf4"/>
+        <segue reference="leh-M9-Uef"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>
