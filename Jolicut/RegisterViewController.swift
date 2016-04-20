@@ -80,26 +80,31 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 return
             }
             
+            print("response=\(error)")
+            
+            let responseString=NSString(data: data!, encoding: NSUTF8StringEncoding)
+            print("responseString=\(responseString)")
+            
             var err: NSError?
-            var json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: &err) as? NSDictionary
+            let json = try! NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers) as? NSDictionary
             
             if let parseJSON = json {
-                var resultValue = parseJSON["status"] as? String
+                let resultValue = parseJSON["status"] as? String
                 print("result=\(resultValue)")
                 
                 var isUserRegistered:Bool = false;
                 if(resultValue=="Success")  {   isUserRegistered = true;    }
                 
-                var messageToDisplay:String = parseJSON["message"] as String!;
+                var messageToDisplay:String = parseJSON["message"] as! String!;
                 if(!isUserRegistered)
                 {
-                    messageToDisplay = parseJSON["message"] as String!;
+                    messageToDisplay = parseJSON["message"] as! String!;
                 }
                 
                 dispatch_async(dispatch_get_main_queue(), {
                 
                     // Display alert message with confirmation
-                    var myAlert = UIAlertController(title:"Alert", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
+                    let myAlert = UIAlertController(title:"Alert", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
                     
                     let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default){action in
                         self.dismissViewControllerAnimated(true, completion: nil);
@@ -110,6 +115,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 
                 });
             }
+//        task.resume()
         }
         
         task.resume()
