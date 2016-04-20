@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="6jh-8e-NlQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CgP-BC-TdS">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -1411,11 +1411,134 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kuE-pi-egh">
-                                <rect key="frame" x="40" y="49" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait DMC.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kuE-pi-egh">
+                                <rect key="frame" x="86" y="156" width="149" height="91"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dominique CADi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNx-w5-euc">
+                                <rect key="frame" x="98" y="255" width="125" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="qYN-lu-2UI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoR-dq-18j">
+                                <rect key="frame" x="136" y="326" width="48" height="21"/>
+                                <color key="backgroundColor" red="0.89792204663868636" green="1" blue="0.71403577836788346" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kzg-xD-0xD"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Skype">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9P4-6E-4Qh">
+                                <rect key="frame" x="130" y="384" width="61" height="21"/>
+                                <color key="backgroundColor" red="0.87450980392156863" green="1" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jB0-4x-aRY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dominique.cadi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8n-DE-wAO">
+                                <rect key="frame" x="102" y="355" width="117" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mcH-v8-x5D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0621884196" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fz8-fO-DKo">
+                                <rect key="frame" x="111" y="413" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="NmX-ZA-WD9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecLogo_JoliCut NOB_Black (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="h1p-0I-Jdr">
+                                <rect key="frame" x="53" y="51" width="215" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Nlq-QH-VKz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skype.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fHR-5a-SuN">
+                                <rect key="frame" x="102" y="324" width="26" height="23"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layrer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layrer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telephone.png" translatesAutoresizingMaskIntoConstraints="NO" id="WWX-fL-yDW">
+                                <rect key="frame" x="98" y="380" width="26" height="25"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layrer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layrer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9P4-6E-4Qh" firstAttribute="top" secondItem="r8n-DE-wAO" secondAttribute="bottom" constant="8" symbolic="YES" id="2jY-jX-HSm"/>
+                            <constraint firstItem="r8n-DE-wAO" firstAttribute="centerX" secondItem="9P4-6E-4Qh" secondAttribute="centerX" id="5vU-Vq-Zl1"/>
+                            <constraint firstItem="h1p-0I-Jdr" firstAttribute="top" secondItem="882-Vm-Lb6" secondAttribute="bottom" constant="31" id="EqA-LH-A0q"/>
+                            <constraint firstItem="NNx-w5-euc" firstAttribute="top" secondItem="kuE-pi-egh" secondAttribute="bottom" constant="8" symbolic="YES" id="FnW-gg-kCf"/>
+                            <constraint firstItem="NNx-w5-euc" firstAttribute="centerX" secondItem="zoR-dq-18j" secondAttribute="centerX" id="HOu-mn-cuL"/>
+                            <constraint firstItem="9P4-6E-4Qh" firstAttribute="leading" secondItem="WWX-fL-yDW" secondAttribute="trailing" constant="6" id="IJN-W1-ykY"/>
+                            <constraint firstItem="zoR-dq-18j" firstAttribute="leading" secondItem="fHR-5a-SuN" secondAttribute="trailing" constant="8" symbolic="YES" id="La9-FK-xHb"/>
+                            <constraint firstItem="WWX-fL-yDW" firstAttribute="top" secondItem="r8n-DE-wAO" secondAttribute="bottom" constant="4" id="N1B-nY-yiu"/>
+                            <constraint firstItem="kuE-pi-egh" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="70" id="P3f-aG-nv1"/>
+                            <constraint firstItem="fHR-5a-SuN" firstAttribute="centerY" secondItem="zoR-dq-18j" secondAttribute="centerY" id="TO8-AX-bVi"/>
+                            <constraint firstItem="FYo-z4-UY4" firstAttribute="top" secondItem="Fz8-fO-DKo" secondAttribute="bottom" constant="134" id="UC4-yU-HKe"/>
+                            <constraint firstItem="Fz8-fO-DKo" firstAttribute="top" secondItem="WWX-fL-yDW" secondAttribute="bottom" constant="8" symbolic="YES" id="Udx-Vm-YgN"/>
+                            <constraint firstItem="kuE-pi-egh" firstAttribute="centerX" secondItem="NNx-w5-euc" secondAttribute="centerX" id="WUp-La-6tU"/>
+                            <constraint firstItem="h1p-0I-Jdr" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="37" id="Ynh-1J-RiY"/>
+                            <constraint firstItem="zoR-dq-18j" firstAttribute="top" secondItem="NNx-w5-euc" secondAttribute="bottom" constant="50" id="a6g-Xi-22r"/>
+                            <constraint firstItem="fHR-5a-SuN" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="86" id="aJ0-Gw-A1P"/>
+                            <constraint firstItem="Fz8-fO-DKo" firstAttribute="top" secondItem="9P4-6E-4Qh" secondAttribute="bottom" constant="8" symbolic="YES" id="bgW-Kd-tNs"/>
+                            <constraint firstItem="9P4-6E-4Qh" firstAttribute="centerX" secondItem="Fz8-fO-DKo" secondAttribute="centerX" id="gRM-nh-rZn"/>
+                            <constraint firstItem="WWX-fL-yDW" firstAttribute="leading" secondItem="eKV-xT-Ecd" secondAttribute="leadingMargin" constant="82" id="gjV-wL-hve"/>
+                            <constraint firstItem="r8n-DE-wAO" firstAttribute="top" secondItem="fHR-5a-SuN" secondAttribute="bottom" constant="6" id="hX0-f1-OFU"/>
+                            <constraint firstItem="h1p-0I-Jdr" firstAttribute="centerX" secondItem="eKV-xT-Ecd" secondAttribute="centerX" id="jjs-Pq-JRG"/>
+                            <constraint firstItem="kuE-pi-egh" firstAttribute="top" secondItem="h1p-0I-Jdr" secondAttribute="bottom" constant="56" id="k9P-ED-JzE"/>
+                            <constraint firstItem="zoR-dq-18j" firstAttribute="centerX" secondItem="r8n-DE-wAO" secondAttribute="centerX" id="mAN-M1-hPd"/>
+                            <constraint firstItem="h1p-0I-Jdr" firstAttribute="centerX" secondItem="kuE-pi-egh" secondAttribute="centerX" id="un2-pO-ikG"/>
+                            <constraint firstItem="r8n-DE-wAO" firstAttribute="top" secondItem="zoR-dq-18j" secondAttribute="bottom" constant="8" symbolic="YES" id="xUt-NR-07Z"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBS-rm-1AI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1427,6 +1550,9 @@
         <image name="Logo_JoliCut.png" width="1795" height="1796"/>
         <image name="RecLogo_JoliCut NOB_Black (1).png" width="677" height="175"/>
         <image name="RecLogo_JoliCutNOB (2)" width="388" height="177"/>
+        <image name="portrait DMC.jpg" width="359" height="359"/>
+        <image name="skype.jpeg" width="75" height="75"/>
+        <image name="telephone.png" width="75" height="75"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5Y8-b8-sPr"/>
