@@ -113,7 +113,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 dispatch_async(dispatch_get_main_queue(), {
                 
                     // Display alert message with confirmation
-                    let myAlert = UIAlertController(title:"Félicitation", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
+                    let myAlert = UIAlertController(title: "", message: messageToDisplay, preferredStyle: UIAlertControllerStyle.Alert);
                     
                     let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default){action in
                         self.dismissViewControllerAnimated(true, completion: nil);

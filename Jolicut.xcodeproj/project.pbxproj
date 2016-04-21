@@ -15,12 +15,16 @@
 		067CFAB91CBE71AD0021618F /* JolicutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAB81CBE71AD0021618F /* JolicutUITests.swift */; };
 		067CFADD1CBF85130021618F /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch.storyboard */; };
 		067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAFA1CBFB1410021618F /* SWRevealViewController.m */; };
+		068A1B7A1CC8CE63000E8EAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A1B791CC8CE63000E8EAC /* MapKit.framework */; };
+		068A1B7C1CC8CE6A000E8EAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A1B7B1CC8CE6A000E8EAC /* CoreLocation.framework */; };
+		068A1B7E1CC8CFFB000E8EAC /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A1B7D1CC8CFFB000E8EAC /* mapViewController.swift */; };
 		06CAF7041CBFE63900BEB7BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7031CBFE63900BEB7BF /* 1.jpg */; };
 		06CAF7081CBFE65E00BEB7BF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7051CBFE65E00BEB7BF /* 2.jpg */; };
 		06CAF7091CBFE65E00BEB7BF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7061CBFE65E00BEB7BF /* 3.jpg */; };
 		06CAF70A1CBFE65E00BEB7BF /* User_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7071CBFE65E00BEB7BF /* User_Icon.png */; };
 		1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */; };
 		1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */; };
+		1CD12FDF1CC8D93E0067FFE1 /* PaypalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDE1CC8D93E0067FFE1 /* PaypalViewController.swift */; };
 		1CD48C731CBFDA6400EDFB6A /* (null) in Resources */ = {isa = PBXBuildFile; };
 		1CD48C771CBFE8BF00EDFB6A /* Logo_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */; };
 		1CD48C781CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */; };
@@ -44,8 +48,6 @@
 		699545B81CBFCF390079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		69A46A961CC6917C002F39B4 /* facture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A951CC6917C002F39B4 /* facture.swift */; };
 		69A46A981CC69290002F39B4 /* SpecialFacture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A971CC69290002F39B4 /* SpecialFacture.swift */; };
-		69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A991CC69679002F39B4 /* showclient.swift */; };
-		69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */; };
 		69A46AA41CC69FEF002F39B4 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */; };
 		69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */; };
 		F20C293F1CC7C418005D3D1D /* portable.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C293D1CC7C418005D3D1D /* portable.png */; };
@@ -91,12 +93,16 @@
 		067CFADC1CBF85130021618F /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		067CFAF91CBFB1410021618F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		067CFAFA1CBFB1410021618F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		068A1B791CC8CE63000E8EAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		068A1B7B1CC8CE6A000E8EAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		068A1B7D1CC8CFFB000E8EAC /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mapViewController.swift; path = ../mapViewController.swift; sourceTree = "<group>"; };
 		06CAF7031CBFE63900BEB7BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		06CAF7051CBFE65E00BEB7BF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		06CAF7061CBFE65E00BEB7BF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		06CAF7071CBFE65E00BEB7BF /* User_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User_Icon.png; sourceTree = "<group>"; };
 		1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnexion.swift; sourceTree = "<group>"; };
+		1CD12FDE1CC8D93E0067FFE1 /* PaypalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaypalViewController.swift; sourceTree = "<group>"; };
 		1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
@@ -109,8 +115,6 @@
 		69461A3B1CC651390056E41A /* specialcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialcell.swift; sourceTree = "<group>"; };
 		69A46A951CC6917C002F39B4 /* facture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facture.swift; sourceTree = "<group>"; };
 		69A46A971CC69290002F39B4 /* SpecialFacture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialFacture.swift; sourceTree = "<group>"; };
-		69A46A991CC69679002F39B4 /* showclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showclient.swift; sourceTree = "<group>"; };
-		69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialClient.swift; sourceTree = "<group>"; };
 		69A46AA21CC69F73002F39B4 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
 		69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
 		69A46AA51CC6A01C002F39B4 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068A1B7C1CC8CE6A000E8EAC /* CoreLocation.framework in Frameworks */,
+				068A1B7A1CC8CE63000E8EAC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +159,8 @@
 		067CFA8C1CBE71AD0021618F = {
 			isa = PBXGroup;
 			children = (
+				068A1B7B1CC8CE6A000E8EAC /* CoreLocation.framework */,
+				068A1B791CC8CE63000E8EAC /* MapKit.framework */,
 				1CF9BA811CC4DB760061C26E /* Fonts */,
 				067CFADE1CBF89440021618F /* Images */,
 				067CFA971CBE71AD0021618F /* Jolicut */,
@@ -175,6 +183,7 @@
 		067CFA971CBE71AD0021618F /* Jolicut */ = {
 			isa = PBXGroup;
 			children = (
+				068A1B7D1CC8CFFB000E8EAC /* mapViewController.swift */,
 				067CFAF91CBFB1410021618F /* SWRevealViewController.h */,
 				067CFAFA1CBFB1410021618F /* SWRevealViewController.m */,
 				F27C58011CBF8BDE00852C8F /* iCarousel.h */,
@@ -185,14 +194,13 @@
 				69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */,
 				067CFAD21CBE8F670021618F /* Jolicut-Bridging-Header.h */,
 				067CFA981CBE71AD0021618F /* AppDelegate.swift */,
+				1CD12FDE1CC8D93E0067FFE1 /* PaypalViewController.swift */,
 				067CFA9A1CBE71AD0021618F /* HomeViewController.swift */,
 				061062511CBFCF4E00FB5266 /* OutViewController.swift */,
 				69461A391CC64F380056E41A /* searchclient.swift */,
 				69461A3B1CC651390056E41A /* specialcell.swift */,
 				69A46A951CC6917C002F39B4 /* facture.swift */,
 				69A46A971CC69290002F39B4 /* SpecialFacture.swift */,
-				69A46A991CC69679002F39B4 /* showclient.swift */,
-				69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */,
 				1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */,
 				690726DC1CC5520600585060 /* RegisterViewController.swift */,
 				1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */,
@@ -414,12 +422,13 @@
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
 				1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */,
 				69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */,
+				1CD12FDF1CC8D93E0067FFE1 /* PaypalViewController.swift in Sources */,
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
 				1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
 				F28DB2881CC90396007AE49A /* viewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
-				69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */,
+				068A1B7E1CC8CFFB000E8EAC /* mapViewController.swift in Sources */,
 				69A46A961CC6917C002F39B4 /* facture.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
 				69461A3A1CC64F380056E41A /* searchclient.swift in Sources */,
