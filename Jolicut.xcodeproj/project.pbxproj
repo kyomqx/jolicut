@@ -25,6 +25,7 @@
 		1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */; };
 		1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */; };
 		1CD12FDF1CC8D93E0067FFE1 /* PaypalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD12FDE1CC8D93E0067FFE1 /* PaypalViewController.swift */; };
+		1CD12FE31CC91B160067FFE1 /* Bitter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD12FE21CC91B160067FFE1 /* Bitter-Regular.ttf */; };
 		1CD48C731CBFDA6400EDFB6A /* (null) in Resources */ = {isa = PBXBuildFile; };
 		1CD48C771CBFE8BF00EDFB6A /* Logo_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */; };
 		1CD48C781CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */; };
@@ -103,6 +104,7 @@
 		1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deconnexion.swift; sourceTree = "<group>"; };
 		1CD12FDE1CC8D93E0067FFE1 /* PaypalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaypalViewController.swift; sourceTree = "<group>"; };
+		1CD12FE21CC91B160067FFE1 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
 		1CD48C741CBFE8BF00EDFB6A /* Logo_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C751CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIcon_JoliCut.png; sourceTree = "<group>"; };
 		1CD48C761CBFE8BF00EDFB6A /* LogoInvert_JoliCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoInvert_JoliCut.png; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		1CF9BA811CC4DB760061C26E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1CD12FE21CC91B160067FFE1 /* Bitter-Regular.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				F27FC8CD1CC7B45C0037CA7F /* skype.jpeg in Resources */,
 				699545B41CBFCBEF0079C3E5 /* (null) in Resources */,
 				699545AE1CBFC6860079C3E5 /* (null) in Resources */,
+				1CD12FE31CC91B160067FFE1 /* Bitter-Regular.ttf in Resources */,
 				067CFAA01CBE71AD0021618F /* Assets.xcassets in Resources */,
 				699545B31CBFCBEF0079C3E5 /* (null) in Resources */,
 				699545AF1CBFC6860079C3E5 /* (null) in Resources */,
@@ -421,7 +425,6 @@
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
 				1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */,
-				69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */,
 				1CD12FDF1CC8D93E0067FFE1 /* PaypalViewController.swift in Sources */,
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
 				1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */,
