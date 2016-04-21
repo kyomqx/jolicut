@@ -871,8 +871,8 @@
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qag-ai-Qsi">
-                                        <rect key="frame" x="99" y="95" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0621884196" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qag-ai-Qsi">
+                                        <rect key="frame" x="67" y="116" width="106" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -883,11 +883,11 @@
                                     <constraint firstItem="Qag-ai-Qsi" firstAttribute="centerX" secondItem="UKo-jX-elD" secondAttribute="centerX" id="29u-nY-sXK"/>
                                     <constraint firstItem="Qag-ai-Qsi" firstAttribute="centerX" secondItem="OtG-3N-ikg" secondAttribute="centerX" id="F1G-Tv-Ps6"/>
                                     <constraint firstItem="OtG-3N-ikg" firstAttribute="leading" secondItem="UKo-jX-elD" secondAttribute="leading" constant="54" id="Q8d-Cc-x8h"/>
-                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="vLV-If-DPj" secondAttribute="bottom" constant="8" symbolic="YES" id="aKd-OI-2sa"/>
+                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="vLV-If-DPj" secondAttribute="bottom" constant="29" id="aKd-OI-2sa"/>
                                     <constraint firstItem="OtG-3N-ikg" firstAttribute="top" secondItem="UKo-jX-elD" secondAttribute="topMargin" id="cpa-3I-WIV"/>
-                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="UKo-jX-elD" secondAttribute="top" constant="95" id="doR-te-14H"/>
+                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="UKo-jX-elD" secondAttribute="top" constant="116" id="doR-te-14H"/>
                                     <constraint firstItem="Qag-ai-Qsi" firstAttribute="centerX" secondItem="vLV-If-DPj" secondAttribute="centerX" id="n1g-2O-jyC"/>
-                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="leading" secondItem="UKo-jX-elD" secondAttribute="leading" constant="99" id="p0b-uw-nYs"/>
+                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="leading" secondItem="UKo-jX-elD" secondAttribute="leading" constant="67" id="p0b-uw-nYs"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="unc-mo-TDW">
