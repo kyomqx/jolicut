@@ -47,8 +47,6 @@
 		699545B81CBFCF390079C3E5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		69A46A961CC6917C002F39B4 /* facture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A951CC6917C002F39B4 /* facture.swift */; };
 		69A46A981CC69290002F39B4 /* SpecialFacture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A971CC69290002F39B4 /* SpecialFacture.swift */; };
-		69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A991CC69679002F39B4 /* showclient.swift */; };
-		69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */; };
 		69A46AA41CC69FEF002F39B4 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */; };
 		69A46AA71CC6A043002F39B4 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A46AA61CC6A043002F39B4 /* MGSwipeTableCell.m */; };
 		F20C293F1CC7C418005D3D1D /* portable.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C293D1CC7C418005D3D1D /* portable.png */; };
@@ -114,8 +112,6 @@
 		69461A3B1CC651390056E41A /* specialcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialcell.swift; sourceTree = "<group>"; };
 		69A46A951CC6917C002F39B4 /* facture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facture.swift; sourceTree = "<group>"; };
 		69A46A971CC69290002F39B4 /* SpecialFacture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialFacture.swift; sourceTree = "<group>"; };
-		69A46A991CC69679002F39B4 /* showclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showclient.swift; sourceTree = "<group>"; };
-		69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialClient.swift; sourceTree = "<group>"; };
 		69A46AA21CC69F73002F39B4 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
 		69A46AA31CC69FEF002F39B4 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
 		69A46AA51CC6A01C002F39B4 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
@@ -200,8 +196,6 @@
 				69461A3B1CC651390056E41A /* specialcell.swift */,
 				69A46A951CC6917C002F39B4 /* facture.swift */,
 				69A46A971CC69290002F39B4 /* SpecialFacture.swift */,
-				69A46A991CC69679002F39B4 /* showclient.swift */,
-				69A46A9B1CC6969D002F39B4 /* SpecialClient.swift */,
 				1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */,
 				690726DC1CC5520600585060 /* RegisterViewController.swift */,
 				1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */,
@@ -421,13 +415,11 @@
 				061062521CBFCF4E00FB5266 /* OutViewController.swift in Sources */,
 				F27C58031CBF8BE900852C8F /* iCarousel.m in Sources */,
 				1CD12FDB1CC7CF7F0067FFE1 /* LoginViewController.swift in Sources */,
-				69A46A9A1CC69679002F39B4 /* showclient.swift in Sources */,
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
 				1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				068A1B7E1CC8CFFB000E8EAC /* mapViewController.swift in Sources */,
-				69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */,
 				69A46A961CC6917C002F39B4 /* facture.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
 				69461A3A1CC64F380056E41A /* searchclient.swift in Sources */,
