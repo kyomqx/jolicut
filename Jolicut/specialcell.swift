@@ -10,12 +10,13 @@ import UIKit
 
 class SpecialCell: UITableViewCell {
 
-    @IBOutlet var disponible: UILabel!
-    @IBOutlet var statut: UILabel!
-    @IBOutlet var identifiant: UILabel!
-    @IBOutlet var nom: UILabel!
-    @IBOutlet var prenom: UILabel!
-    @IBOutlet var note: UILabel!
+    @IBOutlet weak var nom: UILabel!
+    @IBOutlet weak var prenom: UILabel!
+    @IBOutlet weak var statut: UILabel!
+    @IBOutlet weak var disponible: UILabel!
+    @IBOutlet weak var note: UILabel!
+    @IBOutlet weak var sexe: UILabel!
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
