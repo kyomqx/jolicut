@@ -56,6 +56,7 @@
 		F27FC8C01CC7704F0037CA7F /* portrait DMC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8BF1CC7704F0037CA7F /* portrait DMC.jpg */; };
 		F27FC8CD1CC7B45C0037CA7F /* skype.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8CB1CC7B45C0037CA7F /* skype.jpeg */; };
 		F27FC8CE1CC7B45C0037CA7F /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = F27FC8CC1CC7B45C0037CA7F /* telephone.png */; };
+		F28DB2881CC90396007AE49A /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28DB2871CC90396007AE49A /* viewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		F27FC8BF1CC7704F0037CA7F /* portrait DMC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "portrait DMC.jpg"; sourceTree = "<group>"; };
 		F27FC8CB1CC7B45C0037CA7F /* skype.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skype.jpeg; sourceTree = "<group>"; };
 		F27FC8CC1CC7B45C0037CA7F /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telephone.png; sourceTree = "<group>"; };
+		F28DB2871CC90396007AE49A /* viewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = viewController.swift; path = ../viewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				1CD12FDA1CC7CF7F0067FFE1 /* LoginViewController.swift */,
 				690726DC1CC5520600585060 /* RegisterViewController.swift */,
 				1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */,
+				F28DB2871CC90396007AE49A /* viewController.swift */,
 				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
@@ -423,6 +426,7 @@
 				69461A3C1CC651390056E41A /* specialcell.swift in Sources */,
 				1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
+				F28DB2881CC90396007AE49A /* viewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
 				068A1B7E1CC8CFFB000E8EAC /* mapViewController.swift in Sources */,
 				69A46A961CC6917C002F39B4 /* facture.swift in Sources */,
