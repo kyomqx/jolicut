@@ -49,7 +49,7 @@ class searchclient: UIViewController, UITableViewDelegate, UITableViewDataSource
         cell.note.text = maindata["Note"] as? String
         cell.disponible.text = maindata["Disponible"] as? String
         cell.statut.text = maindata["Statut"] as? String
-        cell.identifiant.text = maindata["Identifiant"] as? String
+        cell.sexe.text = maindata["Sexe"] as? String
         return cell;
         
     }
