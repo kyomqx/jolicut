@@ -15,6 +15,9 @@
 		067CFAB91CBE71AD0021618F /* JolicutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAB81CBE71AD0021618F /* JolicutUITests.swift */; };
 		067CFADD1CBF85130021618F /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CFADC1CBF85130021618F /* Launch.storyboard */; };
 		067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CFAFA1CBFB1410021618F /* SWRevealViewController.m */; };
+		068A1B781CC8CBB4000E8EAC /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A1B771CC8CBB4000E8EAC /* mapViewController.swift */; };
+		068A1B7A1CC8CE63000E8EAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A1B791CC8CE63000E8EAC /* MapKit.framework */; };
+		068A1B7C1CC8CE6A000E8EAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A1B7B1CC8CE6A000E8EAC /* CoreLocation.framework */; };
 		06CAF7041CBFE63900BEB7BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7031CBFE63900BEB7BF /* 1.jpg */; };
 		06CAF7081CBFE65E00BEB7BF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7051CBFE65E00BEB7BF /* 2.jpg */; };
 		06CAF7091CBFE65E00BEB7BF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF7061CBFE65E00BEB7BF /* 3.jpg */; };
@@ -90,6 +93,9 @@
 		067CFADC1CBF85130021618F /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		067CFAF91CBFB1410021618F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		067CFAFA1CBFB1410021618F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		068A1B771CC8CBB4000E8EAC /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		068A1B791CC8CE63000E8EAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		068A1B7B1CC8CE6A000E8EAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		06CAF7031CBFE63900BEB7BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		06CAF7051CBFE65E00BEB7BF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		06CAF7061CBFE65E00BEB7BF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -128,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068A1B7C1CC8CE6A000E8EAC /* CoreLocation.framework in Frameworks */,
+				068A1B7A1CC8CE63000E8EAC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +159,8 @@
 		067CFA8C1CBE71AD0021618F = {
 			isa = PBXGroup;
 			children = (
+				068A1B7B1CC8CE6A000E8EAC /* CoreLocation.framework */,
+				068A1B791CC8CE63000E8EAC /* MapKit.framework */,
 				1CF9BA811CC4DB760061C26E /* Fonts */,
 				067CFADE1CBF89440021618F /* Images */,
 				067CFA971CBE71AD0021618F /* Jolicut */,
@@ -195,6 +205,7 @@
 				690726DC1CC5520600585060 /* RegisterViewController.swift */,
 				1CD12FDC1CC7D1FA0067FFE1 /* Deconnexion.swift */,
 				1CF9BA8C1CC51D860061C26E /* Main.storyboard */,
+				068A1B771CC8CBB4000E8EAC /* mapViewController.swift */,
 				067CFADC1CBF85130021618F /* Launch.storyboard */,
 				067CFA9F1CBE71AD0021618F /* Assets.xcassets */,
 				067CFAA41CBE71AD0021618F /* Info.plist */,
@@ -415,6 +426,7 @@
 				1CD12FDD1CC7D1FA0067FFE1 /* Deconnexion.swift in Sources */,
 				067CFA9B1CBE71AD0021618F /* HomeViewController.swift in Sources */,
 				067CFA991CBE71AD0021618F /* AppDelegate.swift in Sources */,
+				068A1B781CC8CBB4000E8EAC /* mapViewController.swift in Sources */,
 				69A46A9C1CC6969D002F39B4 /* SpecialClient.swift in Sources */,
 				69A46A961CC6917C002F39B4 /* facture.swift in Sources */,
 				067CFAFB1CBFB1410021618F /* SWRevealViewController.m in Sources */,
