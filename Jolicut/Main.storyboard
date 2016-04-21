@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="za3-zf-ieE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ISe-51-Rgn">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -830,7 +830,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oba-6C-Gnm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1077" y="-93"/>
+            <point key="canvasLocation" x="909" y="136"/>
+        </scene>
+        <!--Paypal View Controller-->
+        <scene sceneID="Pdk-Yg-kRW">
+            <objects>
+                <viewController id="ISe-51-Rgn" customClass="PaypalViewController" customModule="Jolicut" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aqD-hE-Trm"/>
+                        <viewControllerLayoutGuide type="bottom" id="EcT-GL-9Sg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5yy-GU-W8X">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geU-IT-RB6">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <state key="normal" title="Pay"/>
+                                <connections>
+                                    <action selector="payPressed:" destination="ISe-51-Rgn" eventType="touchUpInside" id="ex7-rz-R8M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="geU-IT-RB6" firstAttribute="centerY" secondItem="5yy-GU-W8X" secondAttribute="centerY" id="XVX-e5-QYO"/>
+                            <constraint firstItem="geU-IT-RB6" firstAttribute="centerX" secondItem="5yy-GU-W8X" secondAttribute="centerX" id="uHp-lF-5u4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvj-NZ-2cZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1342" y="136"/>
         </scene>
         <!--map-->
         <scene sceneID="m1H-Sg-fXg">
