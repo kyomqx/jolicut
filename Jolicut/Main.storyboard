@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="height" constant="60" id="bGf-KO-sbW"/>
                                 </constraints>
                                 <state key="normal" title="Connexion">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Xbx-GG-W4Z" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1xX-k8-2jY"/>
@@ -380,7 +380,7 @@
                                 </constraints>
                                 <color key="tintColor" red="0.99215686274509807" green="0.88627450980392153" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Connexion">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="logginButtonTapped:" destination="PEW-kt-VGX" eventType="touchUpInside" id="XDc-uz-83W"/>
@@ -794,6 +794,7 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.92549019607843142" green="0.85490196078431369" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="M5c-Fg-tgX" firstAttribute="leading" secondItem="vF7-4j-xk1" secondAttribute="trailing" constant="8" symbolic="YES" id="0Sx-Mb-RPS"/>
                                                 <constraint firstItem="O22-ZJ-7xb" firstAttribute="bottom" secondItem="bSX-XA-U90" secondAttribute="bottomMargin" id="13K-Ja-FOf"/>
@@ -839,7 +840,7 @@
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="tableView.layer.masksToBounds" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.71290409482758621" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="disponible" destination="Fwt-X9-F13" id="qJr-dZ-baR"/>
@@ -1104,7 +1105,7 @@
                                             <constraint firstAttribute="width" constant="64" id="miB-Wp-gmh"/>
                                         </constraints>
                                         <state key="normal" title="Valider">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -1229,7 +1230,7 @@
         <image name="User_Icon.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3cJ-w1-yR4"/>
+        <segue reference="h2B-ea-m1X"/>
         <segue reference="WOo-R2-q5Z"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
