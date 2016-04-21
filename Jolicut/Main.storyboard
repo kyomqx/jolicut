@@ -260,9 +260,9 @@
                                     <constraint firstAttribute="height" constant="73" id="bAB-2N-3ex"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <color key="tintColor" red="1" green="0.85882352939999995" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.99607843139999996" green="0.89019607840000003" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="LANCER LA RECHERCHE ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.85882352939999995" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="8Y8-WP-Ul4" kind="push" id="ZbH-rt-ixN"/>
@@ -877,8 +877,8 @@
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qag-ai-Qsi">
-                                        <rect key="frame" x="99" y="95" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0621884196" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qag-ai-Qsi">
+                                        <rect key="frame" x="67" y="116" width="106" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -889,11 +889,11 @@
                                     <constraint firstItem="Qag-ai-Qsi" firstAttribute="centerX" secondItem="UKo-jX-elD" secondAttribute="centerX" id="29u-nY-sXK"/>
                                     <constraint firstItem="Qag-ai-Qsi" firstAttribute="centerX" secondItem="OtG-3N-ikg" secondAttribute="centerX" id="F1G-Tv-Ps6"/>
                                     <constraint firstItem="OtG-3N-ikg" firstAttribute="leading" secondItem="UKo-jX-elD" secondAttribute="leading" constant="54" id="Q8d-Cc-x8h"/>
-                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="vLV-If-DPj" secondAttribute="bottom" constant="8" symbolic="YES" id="aKd-OI-2sa"/>
+                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="vLV-If-DPj" secondAttribute="bottom" constant="29" id="aKd-OI-2sa"/>
                                     <constraint firstItem="OtG-3N-ikg" firstAttribute="top" secondItem="UKo-jX-elD" secondAttribute="topMargin" id="cpa-3I-WIV"/>
-                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="UKo-jX-elD" secondAttribute="top" constant="95" id="doR-te-14H"/>
+                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="top" secondItem="UKo-jX-elD" secondAttribute="top" constant="116" id="doR-te-14H"/>
                                     <constraint firstItem="Qag-ai-Qsi" firstAttribute="centerX" secondItem="vLV-If-DPj" secondAttribute="centerX" id="n1g-2O-jyC"/>
-                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="leading" secondItem="UKo-jX-elD" secondAttribute="leading" constant="99" id="p0b-uw-nYs"/>
+                                    <constraint firstItem="Qag-ai-Qsi" firstAttribute="leading" secondItem="UKo-jX-elD" secondAttribute="leading" constant="67" id="p0b-uw-nYs"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_JoliCut.png" translatesAutoresizingMaskIntoConstraints="NO" id="unc-mo-TDW">
@@ -1119,7 +1119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Se-eT-EDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="-93"/>
+            <point key="canvasLocation" x="1678" y="136"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9qa-rt-SSP">
@@ -1205,6 +1205,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nbj-c4-GeX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1933" y="1416"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zJb-9F-HmG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0c8-4t-gpa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sbF-g8-5u3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zYV-fE-2zV" kind="relationship" relationship="rootViewController" id="zMx-ZE-0OK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFb-0y-md7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2285" y="364"/>
         </scene>
     </scenes>
     <resources>
