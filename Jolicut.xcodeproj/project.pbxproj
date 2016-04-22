@@ -34,6 +34,7 @@
 		1CD48C7F1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */; };
 		1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA8C1CC51D860061C26E /* Main.storyboard */; };
 		1CF9BA911CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */; };
+		31AC4CA21CC9EC43002B3219 /* saloncoif.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31AC4CA11CC9EC43002B3219 /* saloncoif.jpg */; };
 		690726DD1CC5520600585060 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690726DC1CC5520600585060 /* RegisterViewController.swift */; };
 		69461A3A1CC64F380056E41A /* searchclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A391CC64F380056E41A /* searchclient.swift */; };
 		69461A3C1CC651390056E41A /* specialcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69461A3B1CC651390056E41A /* specialcell.swift */; };
@@ -112,6 +113,7 @@
 		1CD48C7E1CBFF61700EDFB6A /* RecLogo_JoliCutNOB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecLogo_JoliCutNOB.png; sourceTree = "<group>"; };
 		1CF9BA8C1CC51D860061C26E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecLogo_JoliCut NOB_Black (1).png"; sourceTree = "<group>"; };
+		31AC4CA11CC9EC43002B3219 /* saloncoif.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saloncoif.jpg; sourceTree = "<group>"; };
 		690726DC1CC5520600585060 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		69461A391CC64F380056E41A /* searchclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchclient.swift; sourceTree = "<group>"; };
 		69461A3B1CC651390056E41A /* specialcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = specialcell.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 		067CFADE1CBF89440021618F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				31AC4CA11CC9EC43002B3219 /* saloncoif.jpg */,
 				F20C293D1CC7C418005D3D1D /* portable.png */,
 				F20C293E1CC7C418005D3D1D /* sky.png */,
 				1CF9BA901CC549AA0061C26E /* RecLogo_JoliCut NOB_Black (1).png */,
@@ -384,6 +387,7 @@
 				1CD48C781CBFE8BF00EDFB6A /* LogoIcon_JoliCut.png in Resources */,
 				1CD48C7B1CBFE8CF00EDFB6A /* RecLogo_JoliCut NOB_Black.png in Resources */,
 				1CF9BA8D1CC51D860061C26E /* Main.storyboard in Resources */,
+				31AC4CA21CC9EC43002B3219 /* saloncoif.jpg in Resources */,
 				F20C293F1CC7C418005D3D1D /* portable.png in Resources */,
 				F27FC8C01CC7704F0037CA7F /* portrait DMC.jpg in Resources */,
 				067CFADD1CBF85130021618F /* Launch.storyboard in Resources */,
